@@ -1,0 +1,5 @@
+/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles/16bitNeumann.dir
+/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles/test_and.dir
+/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles/test_not.dir
+/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles/rebuild_cache.dir

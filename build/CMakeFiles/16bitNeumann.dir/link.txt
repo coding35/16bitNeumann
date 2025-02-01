@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/16bitNeumann.dir/main.c.o CMakeFiles/16bitNeumann.dir/gates/and.c.o CMakeFiles/16bitNeumann.dir/gates/not.c.o CMakeFiles/16bitNeumann.dir/gates/or.c.o -o 16bitNeumann
