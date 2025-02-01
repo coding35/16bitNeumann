@@ -139,10 +139,38 @@ CMakeFiles/16bitNeumann.dir/components/gates/xor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/components/gates/xor.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/xor.c -o CMakeFiles/16bitNeumann.dir/components/gates/xor.c.s
 
+CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: CMakeFiles/16bitNeumann.dir/flags.make
+CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: /home/adam/Repos/16bitNeumann/components/gates/not16.c
+CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o -MF CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o.d -o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o -c /home/adam/Repos/16bitNeumann/components/gates/not16.c
+
+CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/not16.c > CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i
+
+CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/not16.c -o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s
+
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: CMakeFiles/16bitNeumann.dir/flags.make
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: /home/adam/Repos/16bitNeumann/components/gates/and16.c
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o -MF CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o.d -o CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o -c /home/adam/Repos/16bitNeumann/components/gates/and16.c
+
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/components/gates/and16.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/and16.c > CMakeFiles/16bitNeumann.dir/components/gates/and16.c.i
+
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/components/gates/and16.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/and16.c -o CMakeFiles/16bitNeumann.dir/components/gates/and16.c.s
+
 CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: CMakeFiles/16bitNeumann.dir/flags.make
 CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: /home/adam/Repos/16bitNeumann/components/plexers/mux.c
 CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o -MF CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o.d -o CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o -c /home/adam/Repos/16bitNeumann/components/plexers/mux.c
 
 CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.s: cmake_force
 CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o: CMakeFiles/16bitNeumann.dir/flags.make
 CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o: /home/adam/Repos/16bitNeumann/components/plexers/dmux.c
 CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o -MF CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o.d -o CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o -c /home/adam/Repos/16bitNeumann/components/plexers/dmux.c
 
 CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.i: cmake_force
@@ -167,20 +195,6 @@ CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/plexers/dmux.c -o CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.s
 
-CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: CMakeFiles/16bitNeumann.dir/flags.make
-CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: /home/adam/Repos/16bitNeumann/components/gates/not16.c
-CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o -MF CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o.d -o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o -c /home/adam/Repos/16bitNeumann/components/gates/not16.c
-
-CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/not16.c > CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i
-
-CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/not16.c -o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s
-
 # Object files for target 16bitNeumann
 16bitNeumann_OBJECTS = \
 "CMakeFiles/16bitNeumann.dir/main.c.o" \
@@ -188,9 +202,10 @@ CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s: cmake_force
 "CMakeFiles/16bitNeumann.dir/components/gates/not.c.o" \
 "CMakeFiles/16bitNeumann.dir/components/gates/or.c.o" \
 "CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o" \
+"CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o" \
+"CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o" \
 "CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o" \
-"CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o" \
-"CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o"
+"CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o"
 
 # External object files for target 16bitNeumann
 16bitNeumann_EXTERNAL_OBJECTS =
@@ -200,12 +215,13 @@ CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s: cmake_force
 16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/not.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/or.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o
+16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o
+16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o
-16bitNeumann: CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/build.make
 16bitNeumann: CMakeFiles/16bitNeumann.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable 16bitNeumann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable 16bitNeumann"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/16bitNeumann.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -11,9 +11,10 @@ add_executable(
         components/gates/not.c
         components/gates/or.c
         components/gates/xor.c
+        components/gates/not16.c
+        components/gates/and16.c
         components/plexers/mux.c
         components/plexers/dmux.c
-        components/gates/not16.c
 )
 
 # Add the test executable for and
@@ -68,7 +69,16 @@ add_executable(
 add_executable(
         test_not16
         test/test_not16.c
+        components/gates/not.c
         components/gates/not16.c
+        unity/src/unity.c
+)
+
+# Add the test executable for and16
+add_executable(
+        test_and16
+        test/test_and16.c
+        components/gates/and16.c
         unity/src/unity.c
 )
 
@@ -85,5 +95,6 @@ add_custom_target(run_tests
         COMMAND test_dmux
         COMMAND test_mux
         COMMAND test_not16
+        COMMAND test_and16
         DEPENDS test_and test_not test_dmux
 )

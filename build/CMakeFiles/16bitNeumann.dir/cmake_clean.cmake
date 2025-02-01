@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "16bitNeumann.pdb"
   "CMakeFiles/16bitNeumann.dir/components/gates/and.c.o"
   "CMakeFiles/16bitNeumann.dir/components/gates/and.c.o.d"
+  "CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o"
+  "CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o.d"
   "CMakeFiles/16bitNeumann.dir/components/gates/not.c.o"
   "CMakeFiles/16bitNeumann.dir/components/gates/not.c.o.d"
   "CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o"

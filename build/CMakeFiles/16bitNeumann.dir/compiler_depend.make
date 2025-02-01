@@ -35,6 +35,27 @@ CMakeFiles/16bitNeumann.dir/components/gates/and.c.o: /home/adam/Repos/16bitNeum
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
+CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: /home/adam/Repos/16bitNeumann/components/gates/and16.c \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
+
 CMakeFiles/16bitNeumann.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
@@ -57,6 +78,7 @@ CMakeFiles/16bitNeumann.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeum
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: /home/adam/Repos/16bitNeumann/components/gates/not16.c \
+  /home/adam/Repos/16bitNeumann/include/gates/not.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -163,6 +185,7 @@ CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: /home/adam/Repos/16bitNe
 
 CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
   /home/adam/Repos/16bitNeumann/include/gates/and.h \
+  /home/adam/Repos/16bitNeumann/include/gates/and16.h \
   /home/adam/Repos/16bitNeumann/include/gates/not.h \
   /home/adam/Repos/16bitNeumann/include/gates/not16.h \
   /home/adam/Repos/16bitNeumann/include/gates/or.h \
@@ -202,6 +225,8 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 
+/home/adam/Repos/16bitNeumann/include/gates/and16.h:
+
 /home/adam/Repos/16bitNeumann/include/gates/and.h:
 
 /home/adam/Repos/16bitNeumann/include/gates/not16.h:
@@ -215,6 +240,8 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
 /home/adam/Repos/16bitNeumann/components/gates/or.c:
 
 /home/adam/Repos/16bitNeumann/components/gates/not.c:
+
+/home/adam/Repos/16bitNeumann/components/gates/and16.c:
 
 /home/adam/Repos/16bitNeumann/include/plexers/dmux.h:
 

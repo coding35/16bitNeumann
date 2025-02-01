@@ -84,6 +84,20 @@ build CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o: C_COMPILER__16bitNeu
   OBJECT_DIR = CMakeFiles/16bitNeumann.dir
   OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/components/gates
 
+build CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/components/gates/not16.c || cmake_object_order_depends_target_16bitNeumann
+  DEP_FILE = CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/16bitNeumann.dir
+  OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/components/gates
+
+build CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/components/gates/and16.c || cmake_object_order_depends_target_16bitNeumann
+  DEP_FILE = CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/16bitNeumann.dir
+  OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/components/gates
+
 build CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/components/plexers/mux.c || cmake_object_order_depends_target_16bitNeumann
   DEP_FILE = CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
@@ -98,13 +112,6 @@ build CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o: C_COMPILER__16bit
   OBJECT_DIR = CMakeFiles/16bitNeumann.dir
   OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/components/plexers
 
-build CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/components/gates/not16.c || cmake_object_order_depends_target_16bitNeumann
-  DEP_FILE = CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
-  OBJECT_DIR = CMakeFiles/16bitNeumann.dir
-  OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/components/gates
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 16bitNeumann
@@ -113,7 +120,7 @@ build CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: C_COMPILER__16bitN
 #############################################
 # Link the executable 16bitNeumann
 
-build 16bitNeumann: C_EXECUTABLE_LINKER__16bitNeumann_Debug CMakeFiles/16bitNeumann.dir/main.c.o CMakeFiles/16bitNeumann.dir/components/gates/and.c.o CMakeFiles/16bitNeumann.dir/components/gates/not.c.o CMakeFiles/16bitNeumann.dir/components/gates/or.c.o CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o
+build 16bitNeumann: C_EXECUTABLE_LINKER__16bitNeumann_Debug CMakeFiles/16bitNeumann.dir/main.c.o CMakeFiles/16bitNeumann.dir/components/gates/and.c.o CMakeFiles/16bitNeumann.dir/components/gates/not.c.o CMakeFiles/16bitNeumann.dir/components/gates/or.c.o CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/16bitNeumann.dir
   POST_BUILD = :
@@ -397,11 +404,103 @@ build test_dmux: C_EXECUTABLE_LINKER__test_dmux_Debug CMakeFiles/test_dmux.dir/t
   TARGET_FILE = test_dmux
   TARGET_PDB = test_dmux.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_not16
+
+
+#############################################
+# Order-only phony target for test_not16
+
+build cmake_object_order_depends_target_test_not16: phony || .
+
+build CMakeFiles/test_not16.dir/test/test_not16.c.o: C_COMPILER__test_not16_unscanned_Debug /home/adam/Repos/16bitNeumann/test/test_not16.c || cmake_object_order_depends_target_test_not16
+  DEP_FILE = CMakeFiles/test_not16.dir/test/test_not16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_not16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_not16.dir/test
+
+build CMakeFiles/test_not16.dir/components/gates/not16.c.o: C_COMPILER__test_not16_unscanned_Debug /home/adam/Repos/16bitNeumann/components/gates/not16.c || cmake_object_order_depends_target_test_not16
+  DEP_FILE = CMakeFiles/test_not16.dir/components/gates/not16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_not16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_not16.dir/components/gates
+
+build CMakeFiles/test_not16.dir/unity/src/unity.c.o: C_COMPILER__test_not16_unscanned_Debug /home/adam/Repos/16bitNeumann/unity/src/unity.c || cmake_object_order_depends_target_test_not16
+  DEP_FILE = CMakeFiles/test_not16.dir/unity/src/unity.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_not16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_not16.dir/unity/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_not16
+
+
+#############################################
+# Link the executable test_not16
+
+build test_not16: C_EXECUTABLE_LINKER__test_not16_Debug CMakeFiles/test_not16.dir/test/test_not16.c.o CMakeFiles/test_not16.dir/components/gates/not16.c.o CMakeFiles/test_not16.dir/unity/src/unity.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/test_not16.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_not16
+  TARGET_PDB = test_not16.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_and16
+
+
+#############################################
+# Order-only phony target for test_and16
+
+build cmake_object_order_depends_target_test_and16: phony || .
+
+build CMakeFiles/test_and16.dir/test/test_and16.c.o: C_COMPILER__test_and16_unscanned_Debug /home/adam/Repos/16bitNeumann/test/test_and16.c || cmake_object_order_depends_target_test_and16
+  DEP_FILE = CMakeFiles/test_and16.dir/test/test_and16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_and16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_and16.dir/test
+
+build CMakeFiles/test_and16.dir/components/gates/and16.c.o: C_COMPILER__test_and16_unscanned_Debug /home/adam/Repos/16bitNeumann/components/gates/and16.c || cmake_object_order_depends_target_test_and16
+  DEP_FILE = CMakeFiles/test_and16.dir/components/gates/and16.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_and16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_and16.dir/components/gates
+
+build CMakeFiles/test_and16.dir/unity/src/unity.c.o: C_COMPILER__test_and16_unscanned_Debug /home/adam/Repos/16bitNeumann/unity/src/unity.c || cmake_object_order_depends_target_test_and16
+  DEP_FILE = CMakeFiles/test_and16.dir/unity/src/unity.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_and16.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_and16.dir/unity/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_and16
+
+
+#############################################
+# Link the executable test_and16
+
+build test_and16: C_EXECUTABLE_LINKER__test_and16_Debug CMakeFiles/test_and16.dir/test/test_and16.c.o CMakeFiles/test_and16.dir/components/gates/and16.c.o CMakeFiles/test_and16.dir/unity/src/unity.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/test_and16.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_and16
+  TARGET_PDB = test_and16.dbg
+
 
 #############################################
 # Utility command for run_tests
 
-build run_tests: phony CMakeFiles/run_tests test_and test_dmux test_not
+build run_tests: phony CMakeFiles/run_tests test_and test_and16 test_dmux test_mux test_not test_not16 test_or test_xor
 
 
 #############################################
@@ -430,8 +529,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Custom command for CMakeFiles/run_tests
 
-build CMakeFiles/run_tests | ${cmake_ninja_workdir}CMakeFiles/run_tests: CUSTOM_COMMAND test_and test_not test_dmux || test_and test_dmux test_not
-  COMMAND = cd /home/adam/Repos/16bitNeumann/cmake-build-debug && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_and && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_not && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_dmux
+build CMakeFiles/run_tests | ${cmake_ninja_workdir}CMakeFiles/run_tests: CUSTOM_COMMAND test_and test_not test_dmux || test_and test_and16 test_dmux test_mux test_not test_not16 test_or test_xor
+  COMMAND = cd /home/adam/Repos/16bitNeumann/cmake-build-debug && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_and && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_or && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_xor && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_not && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_dmux && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_mux && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_not16 && /home/adam/Repos/16bitNeumann/cmake-build-debug/test_and16
 
 # =============================================================================
 # Target aliases.
@@ -444,7 +543,7 @@ build CMakeFiles/run_tests | ${cmake_ninja_workdir}CMakeFiles/run_tests: CUSTOM_
 #############################################
 # Folder: /home/adam/Repos/16bitNeumann/cmake-build-debug
 
-build all: phony 16bitNeumann test_and test_not test_or test_xor test_mux test_dmux
+build all: phony 16bitNeumann test_and test_not test_or test_xor test_mux test_dmux test_not16 test_and16
 
 # =============================================================================
 # Built-in targets

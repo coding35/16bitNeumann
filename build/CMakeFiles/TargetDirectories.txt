@@ -6,6 +6,7 @@
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_mux.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_dmux.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_not16.dir
+/home/adam/Repos/16bitNeumann/build/CMakeFiles/test_and16.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/run_tests.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/edit_cache.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/rebuild_cache.dir

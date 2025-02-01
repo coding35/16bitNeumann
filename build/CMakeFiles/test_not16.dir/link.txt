@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/test_not16.dir/test/test_not16.c.o CMakeFiles/test_not16.dir/components/gates/not16.c.o CMakeFiles/test_not16.dir/unity/src/unity.c.o -o test_not16
+/usr/bin/cc CMakeFiles/test_not16.dir/test/test_not16.c.o CMakeFiles/test_not16.dir/components/gates/not.c.o CMakeFiles/test_not16.dir/components/gates/not16.c.o CMakeFiles/test_not16.dir/unity/src/unity.c.o -o test_not16

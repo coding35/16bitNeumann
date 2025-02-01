@@ -24,4 +24,5 @@ CMakeFiles/16bitNeumann.dir/main.c.o: \
  /home/adam/Repos/16bitNeumann/include/gates/or.h \
  /home/adam/Repos/16bitNeumann/include/gates/xor.h \
  /home/adam/Repos/16bitNeumann/include/plexers/dmux.h \
- /home/adam/Repos/16bitNeumann/include/gates/not16.h
+ /home/adam/Repos/16bitNeumann/include/gates/not16.h \
+ /home/adam/Repos/16bitNeumann/include/gates/and16.h
