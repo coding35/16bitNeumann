@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/test_dmux.dir/test/test_dmux.c.o CMakeFiles/test_dmux.dir/gates/dmux.c.o CMakeFiles/test_dmux.dir/unity/src/unity.c.o -o test_dmux
+/usr/bin/cc CMakeFiles/test_dmux.dir/test/test_dmux.c.o CMakeFiles/test_dmux.dir/components/plexers/dmux.c.o CMakeFiles/test_dmux.dir/unity/src/unity.c.o -o test_dmux

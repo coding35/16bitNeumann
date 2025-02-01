@@ -36,4 +36,4 @@ CMakeFiles/test_dmux.dir/test/test_dmux.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h \
- /home/adam/Repos/16bitNeumann/test/../include/gates/dmux.h
+ /home/adam/Repos/16bitNeumann/test/../include/plexers/dmux.h

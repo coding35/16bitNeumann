@@ -7,19 +7,20 @@ set(CMAKE_C_STANDARD 11)
 add_executable(
         16bitNeumann
         main.c
-        gates/and.c
-        gates/not.c
-        gates/or.c
-        gates/xor.c
-        gates/mux.c
-        gates/dmux.c
+        components/gates/and.c
+        components/gates/not.c
+        components/gates/or.c
+        components/gates/xor.c
+        components/plexers/mux.c
+        components/plexers/dmux.c
+        components/gates/not16.c
 )
 
 # Add the test executable for and
 add_executable(
         test_and
         test/test_and.c
-        gates/and.c
+        components/gates/and.c
         unity/src/unity.c
 )
 
@@ -27,7 +28,7 @@ add_executable(
 add_executable(
         test_not
         test/test_not.c
-        gates/not.c
+        components/gates/not.c
         unity/src/unity.c
 )
 
@@ -35,7 +36,7 @@ add_executable(
 add_executable(
         test_or
         test/test_or.c
-        gates/or.c
+        components/gates/or.c
         unity/src/unity.c
 )
 
@@ -43,7 +44,7 @@ add_executable(
 add_executable(
         test_xor
         test/test_xor.c
-        gates/xor.c
+        components/gates/xor.c
         unity/src/unity.c
 )
 
@@ -51,7 +52,7 @@ add_executable(
 add_executable(
         test_mux
         test/test_mux.c
-        gates/mux.c
+        components/plexers/mux.c
         unity/src/unity.c
 )
 
@@ -59,10 +60,30 @@ add_executable(
 add_executable(
         test_dmux
         test/test_dmux.c
-        gates/dmux.c
+        components/plexers/dmux.c
         unity/src/unity.c
 )
+
+# Add the test executable for not16
+add_executable(
+        test_not16
+        test/test_not16.c
+        components/gates/not16.c
+        unity/src/unity.c
+)
+
 
 # Include Unity
 include_directories(${CMAKE_SOURCE_DIR}/unity/src)
 
+# Add a custom target to run all tests
+add_custom_target(run_tests
+        COMMAND test_and
+        COMMAND test_or
+        COMMAND test_xor
+        COMMAND test_not
+        COMMAND test_dmux
+        COMMAND test_mux
+        COMMAND test_not16
+        DEPENDS test_and test_not test_dmux
+)

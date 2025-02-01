@@ -207,167 +207,220 @@ test_dmux/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/build
 .PHONY : test_dmux/fast
 
-gates/and.o: gates/and.c.o
-.PHONY : gates/and.o
+#=============================================================================
+# Target rules for targets named test_not16
+
+# Build rule for target.
+test_not16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_not16
+.PHONY : test_not16
+
+# fast build rule for target.
+test_not16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/build
+.PHONY : test_not16/fast
+
+#=============================================================================
+# Target rules for targets named run_tests
+
+# Build rule for target.
+run_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
+
+# fast build rule for target.
+run_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
+
+components/gates/and.o: components/gates/and.c.o
+.PHONY : components/gates/and.o
 
 # target to build an object file
-gates/and.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/and.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/gates/and.c.o
-.PHONY : gates/and.c.o
+components/gates/and.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.o
+.PHONY : components/gates/and.c.o
 
-gates/and.i: gates/and.c.i
-.PHONY : gates/and.i
+components/gates/and.i: components/gates/and.c.i
+.PHONY : components/gates/and.i
 
 # target to preprocess a source file
-gates/and.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/and.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/gates/and.c.i
-.PHONY : gates/and.c.i
+components/gates/and.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.i
+.PHONY : components/gates/and.c.i
 
-gates/and.s: gates/and.c.s
-.PHONY : gates/and.s
+components/gates/and.s: components/gates/and.c.s
+.PHONY : components/gates/and.s
 
 # target to generate assembly for a file
-gates/and.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/and.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/gates/and.c.s
-.PHONY : gates/and.c.s
+components/gates/and.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.s
+.PHONY : components/gates/and.c.s
 
-gates/dmux.o: gates/dmux.c.o
-.PHONY : gates/dmux.o
+components/gates/not.o: components/gates/not.c.o
+.PHONY : components/gates/not.o
 
 # target to build an object file
-gates/dmux.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.o
-.PHONY : gates/dmux.c.o
+components/gates/not.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.o
+.PHONY : components/gates/not.c.o
 
-gates/dmux.i: gates/dmux.c.i
-.PHONY : gates/dmux.i
+components/gates/not.i: components/gates/not.c.i
+.PHONY : components/gates/not.i
 
 # target to preprocess a source file
-gates/dmux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.i
-.PHONY : gates/dmux.c.i
+components/gates/not.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.i
+.PHONY : components/gates/not.c.i
 
-gates/dmux.s: gates/dmux.c.s
-.PHONY : gates/dmux.s
+components/gates/not.s: components/gates/not.c.s
+.PHONY : components/gates/not.s
 
 # target to generate assembly for a file
-gates/dmux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.s
-.PHONY : gates/dmux.c.s
+components/gates/not.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.s
+.PHONY : components/gates/not.c.s
 
-gates/mux.o: gates/mux.c.o
-.PHONY : gates/mux.o
+components/gates/not16.o: components/gates/not16.c.o
+.PHONY : components/gates/not16.o
 
 # target to build an object file
-gates/mux.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.o
-.PHONY : gates/mux.c.o
+components/gates/not16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not16.c.o
+.PHONY : components/gates/not16.c.o
 
-gates/mux.i: gates/mux.c.i
-.PHONY : gates/mux.i
+components/gates/not16.i: components/gates/not16.c.i
+.PHONY : components/gates/not16.i
 
 # target to preprocess a source file
-gates/mux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.i
-.PHONY : gates/mux.c.i
+components/gates/not16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not16.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not16.c.i
+.PHONY : components/gates/not16.c.i
 
-gates/mux.s: gates/mux.c.s
-.PHONY : gates/mux.s
+components/gates/not16.s: components/gates/not16.c.s
+.PHONY : components/gates/not16.s
 
 # target to generate assembly for a file
-gates/mux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.s
-.PHONY : gates/mux.c.s
+components/gates/not16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not16.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not16.c.s
+.PHONY : components/gates/not16.c.s
 
-gates/not.o: gates/not.c.o
-.PHONY : gates/not.o
+components/gates/or.o: components/gates/or.c.o
+.PHONY : components/gates/or.o
 
 # target to build an object file
-gates/not.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/not.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/gates/not.c.o
-.PHONY : gates/not.c.o
+components/gates/or.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.o
+.PHONY : components/gates/or.c.o
 
-gates/not.i: gates/not.c.i
-.PHONY : gates/not.i
+components/gates/or.i: components/gates/or.c.i
+.PHONY : components/gates/or.i
 
 # target to preprocess a source file
-gates/not.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/not.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/gates/not.c.i
-.PHONY : gates/not.c.i
+components/gates/or.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.i
+.PHONY : components/gates/or.c.i
 
-gates/not.s: gates/not.c.s
-.PHONY : gates/not.s
+components/gates/or.s: components/gates/or.c.s
+.PHONY : components/gates/or.s
 
 # target to generate assembly for a file
-gates/not.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/not.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/gates/not.c.s
-.PHONY : gates/not.c.s
+components/gates/or.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.s
+.PHONY : components/gates/or.c.s
 
-gates/or.o: gates/or.c.o
-.PHONY : gates/or.o
+components/gates/xor.o: components/gates/xor.c.o
+.PHONY : components/gates/xor.o
 
 # target to build an object file
-gates/or.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/or.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/gates/or.c.o
-.PHONY : gates/or.c.o
+components/gates/xor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.o
+.PHONY : components/gates/xor.c.o
 
-gates/or.i: gates/or.c.i
-.PHONY : gates/or.i
+components/gates/xor.i: components/gates/xor.c.i
+.PHONY : components/gates/xor.i
 
 # target to preprocess a source file
-gates/or.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/or.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/gates/or.c.i
-.PHONY : gates/or.c.i
+components/gates/xor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.i
+.PHONY : components/gates/xor.c.i
 
-gates/or.s: gates/or.c.s
-.PHONY : gates/or.s
+components/gates/xor.s: components/gates/xor.c.s
+.PHONY : components/gates/xor.s
 
 # target to generate assembly for a file
-gates/or.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/or.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/gates/or.c.s
-.PHONY : gates/or.c.s
+components/gates/xor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.s
+.PHONY : components/gates/xor.c.s
 
-gates/xor.o: gates/xor.c.o
-.PHONY : gates/xor.o
+components/plexers/dmux.o: components/plexers/dmux.c.o
+.PHONY : components/plexers/dmux.o
 
 # target to build an object file
-gates/xor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.o
-.PHONY : gates/xor.c.o
+components/plexers/dmux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.o
+.PHONY : components/plexers/dmux.c.o
 
-gates/xor.i: gates/xor.c.i
-.PHONY : gates/xor.i
+components/plexers/dmux.i: components/plexers/dmux.c.i
+.PHONY : components/plexers/dmux.i
 
 # target to preprocess a source file
-gates/xor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.i
-.PHONY : gates/xor.c.i
+components/plexers/dmux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.i
+.PHONY : components/plexers/dmux.c.i
 
-gates/xor.s: gates/xor.c.s
-.PHONY : gates/xor.s
+components/plexers/dmux.s: components/plexers/dmux.c.s
+.PHONY : components/plexers/dmux.s
 
 # target to generate assembly for a file
-gates/xor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.s
-.PHONY : gates/xor.c.s
+components/plexers/dmux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.s
+.PHONY : components/plexers/dmux.c.s
+
+components/plexers/mux.o: components/plexers/mux.c.o
+.PHONY : components/plexers/mux.o
+
+# target to build an object file
+components/plexers/mux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.o
+.PHONY : components/plexers/mux.c.o
+
+components/plexers/mux.i: components/plexers/mux.c.i
+.PHONY : components/plexers/mux.i
+
+# target to preprocess a source file
+components/plexers/mux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.i
+.PHONY : components/plexers/mux.c.i
+
+components/plexers/mux.s: components/plexers/mux.c.s
+.PHONY : components/plexers/mux.s
+
+# target to generate assembly for a file
+components/plexers/mux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.s
+.PHONY : components/plexers/mux.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -489,6 +542,30 @@ test/test_not.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/test/test_not.c.s
 .PHONY : test/test_not.c.s
 
+test/test_not16.o: test/test_not16.c.o
+.PHONY : test/test_not16.o
+
+# target to build an object file
+test/test_not16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/test/test_not16.c.o
+.PHONY : test/test_not16.c.o
+
+test/test_not16.i: test/test_not16.c.i
+.PHONY : test/test_not16.i
+
+# target to preprocess a source file
+test/test_not16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/test/test_not16.c.i
+.PHONY : test/test_not16.c.i
+
+test/test_not16.s: test/test_not16.c.s
+.PHONY : test/test_not16.s
+
+# target to generate assembly for a file
+test/test_not16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/test/test_not16.c.s
+.PHONY : test/test_not16.c.s
+
 test/test_or.o: test/test_or.c.o
 .PHONY : test/test_or.o
 
@@ -548,6 +625,7 @@ unity/src/unity.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.o
 .PHONY : unity/src/unity.c.o
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -561,6 +639,7 @@ unity/src/unity.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -574,6 +653,7 @@ unity/src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 # Help Target
@@ -584,31 +664,36 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... run_tests"
 	@echo "... 16bitNeumann"
 	@echo "... test_and"
 	@echo "... test_dmux"
 	@echo "... test_mux"
 	@echo "... test_not"
+	@echo "... test_not16"
 	@echo "... test_or"
 	@echo "... test_xor"
-	@echo "... gates/and.o"
-	@echo "... gates/and.i"
-	@echo "... gates/and.s"
-	@echo "... gates/dmux.o"
-	@echo "... gates/dmux.i"
-	@echo "... gates/dmux.s"
-	@echo "... gates/mux.o"
-	@echo "... gates/mux.i"
-	@echo "... gates/mux.s"
-	@echo "... gates/not.o"
-	@echo "... gates/not.i"
-	@echo "... gates/not.s"
-	@echo "... gates/or.o"
-	@echo "... gates/or.i"
-	@echo "... gates/or.s"
-	@echo "... gates/xor.o"
-	@echo "... gates/xor.i"
-	@echo "... gates/xor.s"
+	@echo "... components/gates/and.o"
+	@echo "... components/gates/and.i"
+	@echo "... components/gates/and.s"
+	@echo "... components/gates/not.o"
+	@echo "... components/gates/not.i"
+	@echo "... components/gates/not.s"
+	@echo "... components/gates/not16.o"
+	@echo "... components/gates/not16.i"
+	@echo "... components/gates/not16.s"
+	@echo "... components/gates/or.o"
+	@echo "... components/gates/or.i"
+	@echo "... components/gates/or.s"
+	@echo "... components/gates/xor.o"
+	@echo "... components/gates/xor.i"
+	@echo "... components/gates/xor.s"
+	@echo "... components/plexers/dmux.o"
+	@echo "... components/plexers/dmux.i"
+	@echo "... components/plexers/dmux.s"
+	@echo "... components/plexers/mux.o"
+	@echo "... components/plexers/mux.i"
+	@echo "... components/plexers/mux.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -624,6 +709,9 @@ help:
 	@echo "... test/test_not.o"
 	@echo "... test/test_not.i"
 	@echo "... test/test_not.s"
+	@echo "... test/test_not16.o"
+	@echo "... test/test_not16.i"
+	@echo "... test/test_not16.s"
 	@echo "... test/test_or.o"
 	@echo "... test/test_or.i"
 	@echo "... test/test_or.s"

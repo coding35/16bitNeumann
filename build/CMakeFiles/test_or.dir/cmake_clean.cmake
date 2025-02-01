@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_or.dir/gates/or.c.o"
-  "CMakeFiles/test_or.dir/gates/or.c.o.d"
+  "CMakeFiles/test_or.dir/components/gates/or.c.o"
+  "CMakeFiles/test_or.dir/components/gates/or.c.o.d"
   "CMakeFiles/test_or.dir/test/test_or.c.o"
   "CMakeFiles/test_or.dir/test/test_or.c.o.d"
   "CMakeFiles/test_or.dir/unity/src/unity.c.o"

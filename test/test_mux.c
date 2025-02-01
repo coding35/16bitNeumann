@@ -1,6 +1,6 @@
 // test_mux.c
 #include "../unity/src/unity.h"
-#include "../include/gates/mux.h"
+#include "../include/plexers/mux.h"
 
 void setUp(void) {
     // Set up code if needed

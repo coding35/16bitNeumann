@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adam/Repos/16bitNeumann/gates/mux.c" "CMakeFiles/test_mux.dir/gates/mux.c.o" "gcc" "CMakeFiles/test_mux.dir/gates/mux.c.o.d"
+  "/home/adam/Repos/16bitNeumann/components/plexers/mux.c" "CMakeFiles/test_mux.dir/components/plexers/mux.c.o" "gcc" "CMakeFiles/test_mux.dir/components/plexers/mux.c.o.d"
   "/home/adam/Repos/16bitNeumann/test/test_mux.c" "CMakeFiles/test_mux.dir/test/test_mux.c.o" "gcc" "CMakeFiles/test_mux.dir/test/test_mux.c.o.d"
   "/home/adam/Repos/16bitNeumann/unity/src/unity.c" "CMakeFiles/test_mux.dir/unity/src/unity.c.o" "gcc" "CMakeFiles/test_mux.dir/unity/src/unity.c.o.d"
   )

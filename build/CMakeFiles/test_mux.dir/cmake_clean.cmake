@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_mux.dir/gates/mux.c.o"
-  "CMakeFiles/test_mux.dir/gates/mux.c.o.d"
+  "CMakeFiles/test_mux.dir/components/plexers/mux.c.o"
+  "CMakeFiles/test_mux.dir/components/plexers/mux.c.o.d"
   "CMakeFiles/test_mux.dir/test/test_mux.c.o"
   "CMakeFiles/test_mux.dir/test/test_mux.c.o.d"
   "CMakeFiles/test_mux.dir/unity/src/unity.c.o"

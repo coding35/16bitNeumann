@@ -83,19 +83,19 @@ CMakeFiles/test_and.dir/test/test_and.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_and.dir/test/test_and.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/test/test_and.c -o CMakeFiles/test_and.dir/test/test_and.c.s
 
-CMakeFiles/test_and.dir/gates/and.c.o: CMakeFiles/test_and.dir/flags.make
-CMakeFiles/test_and.dir/gates/and.c.o: /home/adam/Repos/16bitNeumann/gates/and.c
-CMakeFiles/test_and.dir/gates/and.c.o: CMakeFiles/test_and.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_and.dir/gates/and.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_and.dir/gates/and.c.o -MF CMakeFiles/test_and.dir/gates/and.c.o.d -o CMakeFiles/test_and.dir/gates/and.c.o -c /home/adam/Repos/16bitNeumann/gates/and.c
+CMakeFiles/test_and.dir/components/gates/and.c.o: CMakeFiles/test_and.dir/flags.make
+CMakeFiles/test_and.dir/components/gates/and.c.o: /home/adam/Repos/16bitNeumann/components/gates/and.c
+CMakeFiles/test_and.dir/components/gates/and.c.o: CMakeFiles/test_and.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_and.dir/components/gates/and.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_and.dir/components/gates/and.c.o -MF CMakeFiles/test_and.dir/components/gates/and.c.o.d -o CMakeFiles/test_and.dir/components/gates/and.c.o -c /home/adam/Repos/16bitNeumann/components/gates/and.c
 
-CMakeFiles/test_and.dir/gates/and.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_and.dir/gates/and.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/and.c > CMakeFiles/test_and.dir/gates/and.c.i
+CMakeFiles/test_and.dir/components/gates/and.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_and.dir/components/gates/and.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/and.c > CMakeFiles/test_and.dir/components/gates/and.c.i
 
-CMakeFiles/test_and.dir/gates/and.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_and.dir/gates/and.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/and.c -o CMakeFiles/test_and.dir/gates/and.c.s
+CMakeFiles/test_and.dir/components/gates/and.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_and.dir/components/gates/and.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/and.c -o CMakeFiles/test_and.dir/components/gates/and.c.s
 
 CMakeFiles/test_and.dir/unity/src/unity.c.o: CMakeFiles/test_and.dir/flags.make
 CMakeFiles/test_and.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity/src/unity.c
@@ -114,14 +114,14 @@ CMakeFiles/test_and.dir/unity/src/unity.c.s: cmake_force
 # Object files for target test_and
 test_and_OBJECTS = \
 "CMakeFiles/test_and.dir/test/test_and.c.o" \
-"CMakeFiles/test_and.dir/gates/and.c.o" \
+"CMakeFiles/test_and.dir/components/gates/and.c.o" \
 "CMakeFiles/test_and.dir/unity/src/unity.c.o"
 
 # External object files for target test_and
 test_and_EXTERNAL_OBJECTS =
 
 test_and: CMakeFiles/test_and.dir/test/test_and.c.o
-test_and: CMakeFiles/test_and.dir/gates/and.c.o
+test_and: CMakeFiles/test_and.dir/components/gates/and.c.o
 test_and: CMakeFiles/test_and.dir/unity/src/unity.c.o
 test_and: CMakeFiles/test_and.dir/build.make
 test_and: CMakeFiles/test_and.dir/link.txt

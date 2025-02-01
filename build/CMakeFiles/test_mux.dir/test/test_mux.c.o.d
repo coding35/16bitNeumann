@@ -35,4 +35,4 @@ CMakeFiles/test_mux.dir/test/test_mux.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h \
- /home/adam/Repos/16bitNeumann/test/../include/gates/mux.h
+ /home/adam/Repos/16bitNeumann/test/../include/plexers/mux.h

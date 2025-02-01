@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adam/Repos/16bitNeumann/gates/xor.c" "CMakeFiles/test_xor.dir/gates/xor.c.o" "gcc" "CMakeFiles/test_xor.dir/gates/xor.c.o.d"
+  "/home/adam/Repos/16bitNeumann/components/gates/xor.c" "CMakeFiles/test_xor.dir/components/gates/xor.c.o" "gcc" "CMakeFiles/test_xor.dir/components/gates/xor.c.o.d"
   "/home/adam/Repos/16bitNeumann/test/test_xor.c" "CMakeFiles/test_xor.dir/test/test_xor.c.o" "gcc" "CMakeFiles/test_xor.dir/test/test_xor.c.o.d"
   "/home/adam/Repos/16bitNeumann/unity/src/unity.c" "CMakeFiles/test_xor.dir/unity/src/unity.c.o" "gcc" "CMakeFiles/test_xor.dir/unity/src/unity.c.o.d"
   )

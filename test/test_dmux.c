@@ -1,7 +1,7 @@
 // test_dmux.c
 
 #include "../unity/src/unity.h"
-#include "../include/gates/dmux.h"
+#include "../include/plexers/dmux.h"
 
 void setUp(void) {
     // Set up code if needed

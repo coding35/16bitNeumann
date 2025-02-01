@@ -83,19 +83,19 @@ CMakeFiles/test_not.dir/test/test_not.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_not.dir/test/test_not.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/test/test_not.c -o CMakeFiles/test_not.dir/test/test_not.c.s
 
-CMakeFiles/test_not.dir/gates/not.c.o: CMakeFiles/test_not.dir/flags.make
-CMakeFiles/test_not.dir/gates/not.c.o: /home/adam/Repos/16bitNeumann/gates/not.c
-CMakeFiles/test_not.dir/gates/not.c.o: CMakeFiles/test_not.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_not.dir/gates/not.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_not.dir/gates/not.c.o -MF CMakeFiles/test_not.dir/gates/not.c.o.d -o CMakeFiles/test_not.dir/gates/not.c.o -c /home/adam/Repos/16bitNeumann/gates/not.c
+CMakeFiles/test_not.dir/components/gates/not.c.o: CMakeFiles/test_not.dir/flags.make
+CMakeFiles/test_not.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c
+CMakeFiles/test_not.dir/components/gates/not.c.o: CMakeFiles/test_not.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_not.dir/components/gates/not.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_not.dir/components/gates/not.c.o -MF CMakeFiles/test_not.dir/components/gates/not.c.o.d -o CMakeFiles/test_not.dir/components/gates/not.c.o -c /home/adam/Repos/16bitNeumann/components/gates/not.c
 
-CMakeFiles/test_not.dir/gates/not.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_not.dir/gates/not.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/not.c > CMakeFiles/test_not.dir/gates/not.c.i
+CMakeFiles/test_not.dir/components/gates/not.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_not.dir/components/gates/not.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/not.c > CMakeFiles/test_not.dir/components/gates/not.c.i
 
-CMakeFiles/test_not.dir/gates/not.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_not.dir/gates/not.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/not.c -o CMakeFiles/test_not.dir/gates/not.c.s
+CMakeFiles/test_not.dir/components/gates/not.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_not.dir/components/gates/not.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/not.c -o CMakeFiles/test_not.dir/components/gates/not.c.s
 
 CMakeFiles/test_not.dir/unity/src/unity.c.o: CMakeFiles/test_not.dir/flags.make
 CMakeFiles/test_not.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity/src/unity.c
@@ -114,14 +114,14 @@ CMakeFiles/test_not.dir/unity/src/unity.c.s: cmake_force
 # Object files for target test_not
 test_not_OBJECTS = \
 "CMakeFiles/test_not.dir/test/test_not.c.o" \
-"CMakeFiles/test_not.dir/gates/not.c.o" \
+"CMakeFiles/test_not.dir/components/gates/not.c.o" \
 "CMakeFiles/test_not.dir/unity/src/unity.c.o"
 
 # External object files for target test_not
 test_not_EXTERNAL_OBJECTS =
 
 test_not: CMakeFiles/test_not.dir/test/test_not.c.o
-test_not: CMakeFiles/test_not.dir/gates/not.c.o
+test_not: CMakeFiles/test_not.dir/components/gates/not.c.o
 test_not: CMakeFiles/test_not.dir/unity/src/unity.c.o
 test_not: CMakeFiles/test_not.dir/build.make
 test_not: CMakeFiles/test_not.dir/link.txt

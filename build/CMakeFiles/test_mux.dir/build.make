@@ -83,19 +83,19 @@ CMakeFiles/test_mux.dir/test/test_mux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_mux.dir/test/test_mux.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/test/test_mux.c -o CMakeFiles/test_mux.dir/test/test_mux.c.s
 
-CMakeFiles/test_mux.dir/gates/mux.c.o: CMakeFiles/test_mux.dir/flags.make
-CMakeFiles/test_mux.dir/gates/mux.c.o: /home/adam/Repos/16bitNeumann/gates/mux.c
-CMakeFiles/test_mux.dir/gates/mux.c.o: CMakeFiles/test_mux.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_mux.dir/gates/mux.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_mux.dir/gates/mux.c.o -MF CMakeFiles/test_mux.dir/gates/mux.c.o.d -o CMakeFiles/test_mux.dir/gates/mux.c.o -c /home/adam/Repos/16bitNeumann/gates/mux.c
+CMakeFiles/test_mux.dir/components/plexers/mux.c.o: CMakeFiles/test_mux.dir/flags.make
+CMakeFiles/test_mux.dir/components/plexers/mux.c.o: /home/adam/Repos/16bitNeumann/components/plexers/mux.c
+CMakeFiles/test_mux.dir/components/plexers/mux.c.o: CMakeFiles/test_mux.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_mux.dir/components/plexers/mux.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_mux.dir/components/plexers/mux.c.o -MF CMakeFiles/test_mux.dir/components/plexers/mux.c.o.d -o CMakeFiles/test_mux.dir/components/plexers/mux.c.o -c /home/adam/Repos/16bitNeumann/components/plexers/mux.c
 
-CMakeFiles/test_mux.dir/gates/mux.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_mux.dir/gates/mux.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/mux.c > CMakeFiles/test_mux.dir/gates/mux.c.i
+CMakeFiles/test_mux.dir/components/plexers/mux.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_mux.dir/components/plexers/mux.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/plexers/mux.c > CMakeFiles/test_mux.dir/components/plexers/mux.c.i
 
-CMakeFiles/test_mux.dir/gates/mux.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_mux.dir/gates/mux.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/mux.c -o CMakeFiles/test_mux.dir/gates/mux.c.s
+CMakeFiles/test_mux.dir/components/plexers/mux.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_mux.dir/components/plexers/mux.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/plexers/mux.c -o CMakeFiles/test_mux.dir/components/plexers/mux.c.s
 
 CMakeFiles/test_mux.dir/unity/src/unity.c.o: CMakeFiles/test_mux.dir/flags.make
 CMakeFiles/test_mux.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity/src/unity.c
@@ -114,14 +114,14 @@ CMakeFiles/test_mux.dir/unity/src/unity.c.s: cmake_force
 # Object files for target test_mux
 test_mux_OBJECTS = \
 "CMakeFiles/test_mux.dir/test/test_mux.c.o" \
-"CMakeFiles/test_mux.dir/gates/mux.c.o" \
+"CMakeFiles/test_mux.dir/components/plexers/mux.c.o" \
 "CMakeFiles/test_mux.dir/unity/src/unity.c.o"
 
 # External object files for target test_mux
 test_mux_EXTERNAL_OBJECTS =
 
 test_mux: CMakeFiles/test_mux.dir/test/test_mux.c.o
-test_mux: CMakeFiles/test_mux.dir/gates/mux.c.o
+test_mux: CMakeFiles/test_mux.dir/components/plexers/mux.c.o
 test_mux: CMakeFiles/test_mux.dir/unity/src/unity.c.o
 test_mux: CMakeFiles/test_mux.dir/build.make
 test_mux: CMakeFiles/test_mux.dir/link.txt
