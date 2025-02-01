@@ -77,6 +77,20 @@ build CMakeFiles/16bitNeumann.dir/gates/or.c.o: C_COMPILER__16bitNeumann_unscann
   OBJECT_DIR = CMakeFiles/16bitNeumann.dir
   OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/gates
 
+build CMakeFiles/16bitNeumann.dir/gates/xor.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/gates/xor.c || cmake_object_order_depends_target_16bitNeumann
+  DEP_FILE = CMakeFiles/16bitNeumann.dir/gates/xor.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/16bitNeumann.dir
+  OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/gates
+
+build CMakeFiles/16bitNeumann.dir/gates/mux.c.o: C_COMPILER__16bitNeumann_unscanned_Debug /home/adam/Repos/16bitNeumann/gates/mux.c || cmake_object_order_depends_target_16bitNeumann
+  DEP_FILE = CMakeFiles/16bitNeumann.dir/gates/mux.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/16bitNeumann.dir
+  OBJECT_FILE_DIR = CMakeFiles/16bitNeumann.dir/gates
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 16bitNeumann
@@ -85,7 +99,7 @@ build CMakeFiles/16bitNeumann.dir/gates/or.c.o: C_COMPILER__16bitNeumann_unscann
 #############################################
 # Link the executable 16bitNeumann
 
-build 16bitNeumann: C_EXECUTABLE_LINKER__16bitNeumann_Debug CMakeFiles/16bitNeumann.dir/main.c.o CMakeFiles/16bitNeumann.dir/gates/and.c.o CMakeFiles/16bitNeumann.dir/gates/not.c.o CMakeFiles/16bitNeumann.dir/gates/or.c.o
+build 16bitNeumann: C_EXECUTABLE_LINKER__16bitNeumann_Debug CMakeFiles/16bitNeumann.dir/main.c.o CMakeFiles/16bitNeumann.dir/gates/and.c.o CMakeFiles/16bitNeumann.dir/gates/not.c.o CMakeFiles/16bitNeumann.dir/gates/or.c.o CMakeFiles/16bitNeumann.dir/gates/xor.c.o CMakeFiles/16bitNeumann.dir/gates/mux.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/16bitNeumann.dir
   POST_BUILD = :
@@ -185,6 +199,98 @@ build test_not: C_EXECUTABLE_LINKER__test_not_Debug CMakeFiles/test_not.dir/test
   TARGET_FILE = test_not
   TARGET_PDB = test_not.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_or
+
+
+#############################################
+# Order-only phony target for test_or
+
+build cmake_object_order_depends_target_test_or: phony || .
+
+build CMakeFiles/test_or.dir/test/test_or.c.o: C_COMPILER__test_or_unscanned_Debug /home/adam/Repos/16bitNeumann/test/test_or.c || cmake_object_order_depends_target_test_or
+  DEP_FILE = CMakeFiles/test_or.dir/test/test_or.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_or.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_or.dir/test
+
+build CMakeFiles/test_or.dir/gates/or.c.o: C_COMPILER__test_or_unscanned_Debug /home/adam/Repos/16bitNeumann/gates/or.c || cmake_object_order_depends_target_test_or
+  DEP_FILE = CMakeFiles/test_or.dir/gates/or.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_or.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_or.dir/gates
+
+build CMakeFiles/test_or.dir/unity/src/unity.c.o: C_COMPILER__test_or_unscanned_Debug /home/adam/Repos/16bitNeumann/unity/src/unity.c || cmake_object_order_depends_target_test_or
+  DEP_FILE = CMakeFiles/test_or.dir/unity/src/unity.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_or.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_or.dir/unity/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_or
+
+
+#############################################
+# Link the executable test_or
+
+build test_or: C_EXECUTABLE_LINKER__test_or_Debug CMakeFiles/test_or.dir/test/test_or.c.o CMakeFiles/test_or.dir/gates/or.c.o CMakeFiles/test_or.dir/unity/src/unity.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/test_or.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_or
+  TARGET_PDB = test_or.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_xor
+
+
+#############################################
+# Order-only phony target for test_xor
+
+build cmake_object_order_depends_target_test_xor: phony || .
+
+build CMakeFiles/test_xor.dir/test/test_xor.c.o: C_COMPILER__test_xor_unscanned_Debug /home/adam/Repos/16bitNeumann/test/test_xor.c || cmake_object_order_depends_target_test_xor
+  DEP_FILE = CMakeFiles/test_xor.dir/test/test_xor.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_xor.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_xor.dir/test
+
+build CMakeFiles/test_xor.dir/gates/xor.c.o: C_COMPILER__test_xor_unscanned_Debug /home/adam/Repos/16bitNeumann/gates/xor.c || cmake_object_order_depends_target_test_xor
+  DEP_FILE = CMakeFiles/test_xor.dir/gates/xor.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_xor.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_xor.dir/gates
+
+build CMakeFiles/test_xor.dir/unity/src/unity.c.o: C_COMPILER__test_xor_unscanned_Debug /home/adam/Repos/16bitNeumann/unity/src/unity.c || cmake_object_order_depends_target_test_xor
+  DEP_FILE = CMakeFiles/test_xor.dir/unity/src/unity.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/adam/Repos/16bitNeumann/unity/src
+  OBJECT_DIR = CMakeFiles/test_xor.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_xor.dir/unity/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_xor
+
+
+#############################################
+# Link the executable test_xor
+
+build test_xor: C_EXECUTABLE_LINKER__test_xor_Debug CMakeFiles/test_xor.dir/test/test_xor.c.o CMakeFiles/test_xor.dir/gates/xor.c.o CMakeFiles/test_xor.dir/unity/src/unity.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/test_xor.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_xor
+  TARGET_PDB = test_xor.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -219,7 +325,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/adam/Repos/16bitNeumann/cmake-build-debug
 
-build all: phony 16bitNeumann test_and test_not
+build all: phony 16bitNeumann test_and test_not test_or test_xor
 
 # =============================================================================
 # Built-in targets

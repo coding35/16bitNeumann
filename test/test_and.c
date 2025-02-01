@@ -1,6 +1,6 @@
 // test_and.c
 #include "../unity/src/unity.h"
-#include "../include/and.h"
+#include "../include/gates/and.h"
 
 void setUp(void) {
     // Set up code if needed

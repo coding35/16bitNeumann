@@ -1,6 +1,6 @@
 // test_not.c
 #include "../unity/src/unity.h"
-#include "../include/not.h"
+#include "../include/gates/not.h"
 
 /*
      Not Truth Table

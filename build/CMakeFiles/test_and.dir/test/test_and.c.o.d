@@ -35,4 +35,4 @@ CMakeFiles/test_and.dir/test/test_and.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h \
- /home/adam/Repos/16bitNeumann/test/../include/and.h
+ /home/adam/Repos/16bitNeumann/test/../include/gates/and.h

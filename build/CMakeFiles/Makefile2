@@ -67,6 +67,9 @@ all: CMakeFiles/16bitNeumann.dir/all
 all: CMakeFiles/test_and.dir/all
 all: CMakeFiles/test_not.dir/all
 all: CMakeFiles/test_or.dir/all
+all: CMakeFiles/test_xor.dir/all
+all: CMakeFiles/test_mux.dir/all
+all: CMakeFiles/test_dmux.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +81,9 @@ clean: CMakeFiles/16bitNeumann.dir/clean
 clean: CMakeFiles/test_and.dir/clean
 clean: CMakeFiles/test_not.dir/clean
 clean: CMakeFiles/test_or.dir/clean
+clean: CMakeFiles/test_xor.dir/clean
+clean: CMakeFiles/test_mux.dir/clean
+clean: CMakeFiles/test_dmux.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,12 +93,12 @@ clean: CMakeFiles/test_or.dir/clean
 CMakeFiles/16bitNeumann.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target 16bitNeumann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target 16bitNeumann"
 .PHONY : CMakeFiles/16bitNeumann.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/16bitNeumann.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/16bitNeumann.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 0
 .PHONY : CMakeFiles/16bitNeumann.dir/rule
@@ -113,7 +119,7 @@ CMakeFiles/16bitNeumann.dir/clean:
 CMakeFiles/test_and.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=6,7,8,9 "Built target test_and"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=9,10,11,12 "Built target test_and"
 .PHONY : CMakeFiles/test_and.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +145,7 @@ CMakeFiles/test_and.dir/clean:
 CMakeFiles/test_not.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=10,11,12,13 "Built target test_not"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=21,22,23,24 "Built target test_not"
 .PHONY : CMakeFiles/test_not.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +171,7 @@ CMakeFiles/test_not.dir/clean:
 CMakeFiles/test_or.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=14,15,16,17 "Built target test_or"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=25,26,27,28 "Built target test_or"
 .PHONY : CMakeFiles/test_or.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +189,84 @@ test_or: CMakeFiles/test_or.dir/rule
 CMakeFiles/test_or.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/clean
 .PHONY : CMakeFiles/test_or.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_xor.dir
+
+# All Build rule for target.
+CMakeFiles/test_xor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=29,30,31,32 "Built target test_xor"
+.PHONY : CMakeFiles/test_xor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_xor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_xor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_xor.dir/rule
+
+# Convenience name for target.
+test_xor: CMakeFiles/test_xor.dir/rule
+.PHONY : test_xor
+
+# clean rule for target.
+CMakeFiles/test_xor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/clean
+.PHONY : CMakeFiles/test_xor.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_mux.dir
+
+# All Build rule for target.
+CMakeFiles/test_mux.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=17,18,19,20 "Built target test_mux"
+.PHONY : CMakeFiles/test_mux.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_mux.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_mux.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_mux.dir/rule
+
+# Convenience name for target.
+test_mux: CMakeFiles/test_mux.dir/rule
+.PHONY : test_mux
+
+# clean rule for target.
+CMakeFiles/test_mux.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/clean
+.PHONY : CMakeFiles/test_mux.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_dmux.dir
+
+# All Build rule for target.
+CMakeFiles/test_dmux.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=13,14,15,16 "Built target test_dmux"
+.PHONY : CMakeFiles/test_dmux.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_dmux.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_dmux.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/Repos/16bitNeumann/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_dmux.dir/rule
+
+# Convenience name for target.
+test_dmux: CMakeFiles/test_dmux.dir/rule
+.PHONY : test_dmux
+
+# clean rule for target.
+CMakeFiles/test_dmux.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/clean
+.PHONY : CMakeFiles/test_dmux.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

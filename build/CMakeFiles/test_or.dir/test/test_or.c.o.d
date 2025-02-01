@@ -35,4 +35,4 @@ CMakeFiles/test_or.dir/test/test_or.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h \
- /home/adam/Repos/16bitNeumann/test/../include/or.h
+ /home/adam/Repos/16bitNeumann/test/../include/gates/or.h

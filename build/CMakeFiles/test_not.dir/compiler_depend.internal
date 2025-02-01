@@ -25,7 +25,7 @@ CMakeFiles/test_not.dir/gates/not.c.o
 
 CMakeFiles/test_not.dir/test/test_not.c.o
  /home/adam/Repos/16bitNeumann/test/test_not.c
- /home/adam/Repos/16bitNeumann/include/not.h
+ /home/adam/Repos/16bitNeumann/include/gates/not.h
  /home/adam/Repos/16bitNeumann/unity/src/unity.h
  /home/adam/Repos/16bitNeumann/unity/src/unity_internals.h
  /usr/include/bits/floatn-common.h

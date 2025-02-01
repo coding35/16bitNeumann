@@ -15,10 +15,11 @@ CMakeFiles/16bitNeumann.dir/main.c.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
- /home/adam/Repos/16bitNeumann/include/and.h \
+ /home/adam/Repos/16bitNeumann/include/gates/and.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/adam/Repos/16bitNeumann/include/not.h \
- /home/adam/Repos/16bitNeumann/include/or.h
+ /home/adam/Repos/16bitNeumann/include/gates/not.h \
+ /home/adam/Repos/16bitNeumann/include/gates/or.h \
+ /home/adam/Repos/16bitNeumann/include/gates/xor.h

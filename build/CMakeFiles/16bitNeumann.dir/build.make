@@ -125,12 +125,57 @@ CMakeFiles/16bitNeumann.dir/gates/or.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/gates/or.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/or.c -o CMakeFiles/16bitNeumann.dir/gates/or.c.s
 
+CMakeFiles/16bitNeumann.dir/gates/xor.c.o: CMakeFiles/16bitNeumann.dir/flags.make
+CMakeFiles/16bitNeumann.dir/gates/xor.c.o: /home/adam/Repos/16bitNeumann/gates/xor.c
+CMakeFiles/16bitNeumann.dir/gates/xor.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/16bitNeumann.dir/gates/xor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/gates/xor.c.o -MF CMakeFiles/16bitNeumann.dir/gates/xor.c.o.d -o CMakeFiles/16bitNeumann.dir/gates/xor.c.o -c /home/adam/Repos/16bitNeumann/gates/xor.c
+
+CMakeFiles/16bitNeumann.dir/gates/xor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/gates/xor.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/xor.c > CMakeFiles/16bitNeumann.dir/gates/xor.c.i
+
+CMakeFiles/16bitNeumann.dir/gates/xor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/gates/xor.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/xor.c -o CMakeFiles/16bitNeumann.dir/gates/xor.c.s
+
+CMakeFiles/16bitNeumann.dir/gates/mux.c.o: CMakeFiles/16bitNeumann.dir/flags.make
+CMakeFiles/16bitNeumann.dir/gates/mux.c.o: /home/adam/Repos/16bitNeumann/gates/mux.c
+CMakeFiles/16bitNeumann.dir/gates/mux.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/16bitNeumann.dir/gates/mux.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/gates/mux.c.o -MF CMakeFiles/16bitNeumann.dir/gates/mux.c.o.d -o CMakeFiles/16bitNeumann.dir/gates/mux.c.o -c /home/adam/Repos/16bitNeumann/gates/mux.c
+
+CMakeFiles/16bitNeumann.dir/gates/mux.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/gates/mux.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/mux.c > CMakeFiles/16bitNeumann.dir/gates/mux.c.i
+
+CMakeFiles/16bitNeumann.dir/gates/mux.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/gates/mux.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/mux.c -o CMakeFiles/16bitNeumann.dir/gates/mux.c.s
+
+CMakeFiles/16bitNeumann.dir/gates/dmux.c.o: CMakeFiles/16bitNeumann.dir/flags.make
+CMakeFiles/16bitNeumann.dir/gates/dmux.c.o: /home/adam/Repos/16bitNeumann/gates/dmux.c
+CMakeFiles/16bitNeumann.dir/gates/dmux.c.o: CMakeFiles/16bitNeumann.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/16bitNeumann.dir/gates/dmux.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/16bitNeumann.dir/gates/dmux.c.o -MF CMakeFiles/16bitNeumann.dir/gates/dmux.c.o.d -o CMakeFiles/16bitNeumann.dir/gates/dmux.c.o -c /home/adam/Repos/16bitNeumann/gates/dmux.c
+
+CMakeFiles/16bitNeumann.dir/gates/dmux.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/16bitNeumann.dir/gates/dmux.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/gates/dmux.c > CMakeFiles/16bitNeumann.dir/gates/dmux.c.i
+
+CMakeFiles/16bitNeumann.dir/gates/dmux.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/16bitNeumann.dir/gates/dmux.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/gates/dmux.c -o CMakeFiles/16bitNeumann.dir/gates/dmux.c.s
+
 # Object files for target 16bitNeumann
 16bitNeumann_OBJECTS = \
 "CMakeFiles/16bitNeumann.dir/main.c.o" \
 "CMakeFiles/16bitNeumann.dir/gates/and.c.o" \
 "CMakeFiles/16bitNeumann.dir/gates/not.c.o" \
-"CMakeFiles/16bitNeumann.dir/gates/or.c.o"
+"CMakeFiles/16bitNeumann.dir/gates/or.c.o" \
+"CMakeFiles/16bitNeumann.dir/gates/xor.c.o" \
+"CMakeFiles/16bitNeumann.dir/gates/mux.c.o" \
+"CMakeFiles/16bitNeumann.dir/gates/dmux.c.o"
 
 # External object files for target 16bitNeumann
 16bitNeumann_EXTERNAL_OBJECTS =
@@ -139,9 +184,12 @@ CMakeFiles/16bitNeumann.dir/gates/or.c.s: cmake_force
 16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/and.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/not.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/or.c.o
+16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/xor.c.o
+16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/mux.c.o
+16bitNeumann: CMakeFiles/16bitNeumann.dir/gates/dmux.c.o
 16bitNeumann: CMakeFiles/16bitNeumann.dir/build.make
 16bitNeumann: CMakeFiles/16bitNeumann.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable 16bitNeumann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable 16bitNeumann"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/16bitNeumann.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

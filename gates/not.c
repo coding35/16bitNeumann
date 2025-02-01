@@ -9,6 +9,19 @@ typedef uint8_t bit;
      |---|---|
      | 0 | 1 |
      | 1 | 0 |
+
+    HDL
+    Not gate:
+    if (a) out = 0, else out = 1
+
+    CHIP Not {
+        IN in;
+        OUT out;
+
+        PARTS:
+        Nand(a=in, b=in, out=out);
+    }
+
  */
 
 bit not(bit a) {

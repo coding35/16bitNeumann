@@ -168,6 +168,45 @@ test_or/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/build
 .PHONY : test_or/fast
 
+#=============================================================================
+# Target rules for targets named test_xor
+
+# Build rule for target.
+test_xor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_xor
+.PHONY : test_xor
+
+# fast build rule for target.
+test_xor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/build
+.PHONY : test_xor/fast
+
+#=============================================================================
+# Target rules for targets named test_mux
+
+# Build rule for target.
+test_mux: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mux
+.PHONY : test_mux
+
+# fast build rule for target.
+test_mux/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/build
+.PHONY : test_mux/fast
+
+#=============================================================================
+# Target rules for targets named test_dmux
+
+# Build rule for target.
+test_dmux: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_dmux
+.PHONY : test_dmux
+
+# fast build rule for target.
+test_dmux/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/build
+.PHONY : test_dmux/fast
+
 gates/and.o: gates/and.c.o
 .PHONY : gates/and.o
 
@@ -194,6 +233,60 @@ gates/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/gates/and.c.s
 .PHONY : gates/and.c.s
+
+gates/dmux.o: gates/dmux.c.o
+.PHONY : gates/dmux.o
+
+# target to build an object file
+gates/dmux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.o
+.PHONY : gates/dmux.c.o
+
+gates/dmux.i: gates/dmux.c.i
+.PHONY : gates/dmux.i
+
+# target to preprocess a source file
+gates/dmux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.i
+.PHONY : gates/dmux.c.i
+
+gates/dmux.s: gates/dmux.c.s
+.PHONY : gates/dmux.s
+
+# target to generate assembly for a file
+gates/dmux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/dmux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/gates/dmux.c.s
+.PHONY : gates/dmux.c.s
+
+gates/mux.o: gates/mux.c.o
+.PHONY : gates/mux.o
+
+# target to build an object file
+gates/mux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.o
+.PHONY : gates/mux.c.o
+
+gates/mux.i: gates/mux.c.i
+.PHONY : gates/mux.i
+
+# target to preprocess a source file
+gates/mux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.i
+.PHONY : gates/mux.c.i
+
+gates/mux.s: gates/mux.c.s
+.PHONY : gates/mux.s
+
+# target to generate assembly for a file
+gates/mux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/mux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/gates/mux.c.s
+.PHONY : gates/mux.c.s
 
 gates/not.o: gates/not.c.o
 .PHONY : gates/not.o
@@ -249,6 +342,33 @@ gates/or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/gates/or.c.s
 .PHONY : gates/or.c.s
 
+gates/xor.o: gates/xor.c.o
+.PHONY : gates/xor.o
+
+# target to build an object file
+gates/xor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.o
+.PHONY : gates/xor.c.o
+
+gates/xor.i: gates/xor.c.i
+.PHONY : gates/xor.i
+
+# target to preprocess a source file
+gates/xor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.i
+.PHONY : gates/xor.c.i
+
+gates/xor.s: gates/xor.c.s
+.PHONY : gates/xor.s
+
+# target to generate assembly for a file
+gates/xor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/gates/xor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/gates/xor.c.s
+.PHONY : gates/xor.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -296,6 +416,54 @@ test/test_and.s: test/test_and.c.s
 test/test_and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/test/test_and.c.s
 .PHONY : test/test_and.c.s
+
+test/test_dmux.o: test/test_dmux.c.o
+.PHONY : test/test_dmux.o
+
+# target to build an object file
+test/test_dmux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/test/test_dmux.c.o
+.PHONY : test/test_dmux.c.o
+
+test/test_dmux.i: test/test_dmux.c.i
+.PHONY : test/test_dmux.i
+
+# target to preprocess a source file
+test/test_dmux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/test/test_dmux.c.i
+.PHONY : test/test_dmux.c.i
+
+test/test_dmux.s: test/test_dmux.c.s
+.PHONY : test/test_dmux.s
+
+# target to generate assembly for a file
+test/test_dmux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/test/test_dmux.c.s
+.PHONY : test/test_dmux.c.s
+
+test/test_mux.o: test/test_mux.c.o
+.PHONY : test/test_mux.o
+
+# target to build an object file
+test/test_mux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/test/test_mux.c.o
+.PHONY : test/test_mux.c.o
+
+test/test_mux.i: test/test_mux.c.i
+.PHONY : test/test_mux.i
+
+# target to preprocess a source file
+test/test_mux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/test/test_mux.c.i
+.PHONY : test/test_mux.c.i
+
+test/test_mux.s: test/test_mux.c.s
+.PHONY : test/test_mux.s
+
+# target to generate assembly for a file
+test/test_mux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/test/test_mux.c.s
+.PHONY : test/test_mux.c.s
 
 test/test_not.o: test/test_not.c.o
 .PHONY : test/test_not.o
@@ -345,6 +513,30 @@ test/test_or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/test/test_or.c.s
 .PHONY : test/test_or.c.s
 
+test/test_xor.o: test/test_xor.c.o
+.PHONY : test/test_xor.o
+
+# target to build an object file
+test/test_xor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/test/test_xor.c.o
+.PHONY : test/test_xor.c.o
+
+test/test_xor.i: test/test_xor.c.i
+.PHONY : test/test_xor.i
+
+# target to preprocess a source file
+test/test_xor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/test/test_xor.c.i
+.PHONY : test/test_xor.c.i
+
+test/test_xor.s: test/test_xor.c.s
+.PHONY : test/test_xor.s
+
+# target to generate assembly for a file
+test/test_xor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/test/test_xor.c.s
+.PHONY : test/test_xor.c.s
+
 unity/src/unity.o: unity/src/unity.c.o
 .PHONY : unity/src/unity.o
 
@@ -353,6 +545,9 @@ unity/src/unity.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.o
 .PHONY : unity/src/unity.c.o
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -363,6 +558,9 @@ unity/src/unity.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -373,6 +571,9 @@ unity/src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 # Help Target
@@ -385,29 +586,50 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 16bitNeumann"
 	@echo "... test_and"
+	@echo "... test_dmux"
+	@echo "... test_mux"
 	@echo "... test_not"
 	@echo "... test_or"
+	@echo "... test_xor"
 	@echo "... gates/and.o"
 	@echo "... gates/and.i"
 	@echo "... gates/and.s"
+	@echo "... gates/dmux.o"
+	@echo "... gates/dmux.i"
+	@echo "... gates/dmux.s"
+	@echo "... gates/mux.o"
+	@echo "... gates/mux.i"
+	@echo "... gates/mux.s"
 	@echo "... gates/not.o"
 	@echo "... gates/not.i"
 	@echo "... gates/not.s"
 	@echo "... gates/or.o"
 	@echo "... gates/or.i"
 	@echo "... gates/or.s"
+	@echo "... gates/xor.o"
+	@echo "... gates/xor.i"
+	@echo "... gates/xor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... test/test_and.o"
 	@echo "... test/test_and.i"
 	@echo "... test/test_and.s"
+	@echo "... test/test_dmux.o"
+	@echo "... test/test_dmux.i"
+	@echo "... test/test_dmux.s"
+	@echo "... test/test_mux.o"
+	@echo "... test/test_mux.i"
+	@echo "... test/test_mux.s"
 	@echo "... test/test_not.o"
 	@echo "... test/test_not.i"
 	@echo "... test/test_not.s"
 	@echo "... test/test_or.o"
 	@echo "... test/test_or.i"
 	@echo "... test/test_or.s"
+	@echo "... test/test_xor.o"
+	@echo "... test/test_xor.i"
+	@echo "... test/test_xor.s"
 	@echo "... unity/src/unity.o"
 	@echo "... unity/src/unity.i"
 	@echo "... unity/src/unity.s"

@@ -1,6 +1,6 @@
 // test_or.c
 #include "../unity/src/unity.h"
-#include "../include/or.h"
+#include "../include/gates/or.h"
 
 /*
     Or Truth Table

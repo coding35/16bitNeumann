@@ -44,4 +44,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_and.dir/DependInfo.cmake"
   "CMakeFiles/test_not.dir/DependInfo.cmake"
   "CMakeFiles/test_or.dir/DependInfo.cmake"
+  "CMakeFiles/test_xor.dir/DependInfo.cmake"
+  "CMakeFiles/test_mux.dir/DependInfo.cmake"
+  "CMakeFiles/test_dmux.dir/DependInfo.cmake"
   )

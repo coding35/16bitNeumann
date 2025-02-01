@@ -23,7 +23,7 @@ CMakeFiles/test_not.dir/gates/not.c.o: /home/adam/Repos/16bitNeumann/gates/not.c
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/test_not.dir/test/test_not.c.o: /home/adam/Repos/16bitNeumann/test/test_not.c \
-  /home/adam/Repos/16bitNeumann/include/not.h \
+  /home/adam/Repos/16bitNeumann/include/gates/not.h \
   /home/adam/Repos/16bitNeumann/unity/src/unity.h \
   /home/adam/Repos/16bitNeumann/unity/src/unity_internals.h \
   /usr/include/bits/floatn-common.h \
@@ -142,8 +142,6 @@ CMakeFiles/test_not.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity
 
 /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h:
 
-/usr/include/stdio.h:
-
 /usr/include/setjmp.h:
 
 /usr/include/limits.h:
@@ -246,9 +244,11 @@ CMakeFiles/test_not.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity
 
 /home/adam/Repos/16bitNeumann/test/test_not.c:
 
-/usr/include/bits/floatn-common.h:
+/usr/include/stdio.h:
 
-/home/adam/Repos/16bitNeumann/include/not.h:
+/home/adam/Repos/16bitNeumann/include/gates/not.h:
+
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/floatn.h:
 
