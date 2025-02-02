@@ -6,6 +6,6 @@
 
 typedef uint8_t bit;
 
-void and16(bit a[], bit b[], bit out[]);
+bit* and16(bit a[], bit b[]);
 
 #endif //AND16_H

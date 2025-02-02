@@ -6,6 +6,6 @@
 
 typedef uint8_t bit;
 
-void not16(bit a[], bit b[]);
+bit* not16(bit a[]);
 
 #endif //NOT16_H

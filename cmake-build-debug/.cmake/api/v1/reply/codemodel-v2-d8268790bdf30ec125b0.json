@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "16bitNeumann",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "16bitNeumann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16bitNeumann-Debug-ccd1c2fcacec69877291.json",
+					"name" : "16bitNeumann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-Debug-86776afcf36ccf9c318d.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_and-Debug-5c4b691abed0db449037.json",
+					"name" : "test_and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_and16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_and16-Debug-d1213bbc309f73733bf3.json",
+					"name" : "test_and16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dmux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dmux-Debug-c4014b37fa4e9b786729.json",
+					"name" : "test_dmux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mux-Debug-3aaf1458c7be7f4b284a.json",
+					"name" : "test_mux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_not::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_not-Debug-9597a5f83c8140eacf19.json",
+					"name" : "test_not",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_not16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_not16-Debug-d20ca1321bbca720e567.json",
+					"name" : "test_not16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_or::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_or-Debug-0391fc1f50c15574d6dc.json",
+					"name" : "test_or",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_xor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_xor-Debug-7878e0acb3608dc9b1b6.json",
+					"name" : "test_xor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/Repos/16bitNeumann/cmake-build-debug",
+		"source" : "/home/adam/Repos/16bitNeumann"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

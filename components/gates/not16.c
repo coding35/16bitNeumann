@@ -1,5 +1,6 @@
 // not16.c
 #include <stdint.h>
+#include <stdlib.h>
 #include "../../include/gates/not.h"
 
 typedef uint8_t bit;
@@ -40,8 +41,10 @@ typedef uint8_t bit;
 */
 
 
-void not16(bit a[], bit out[]) {
+bit* not16(bit a[]) {
+    bit* out = (bit*)malloc(16 * sizeof(bit));
     for (int i = 0; i < 16; i++) {
         out[i] = not(a[i]); // build on top of the not component
     }
+    return out;
 }

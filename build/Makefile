@@ -234,6 +234,32 @@ test_and16/fast:
 .PHONY : test_and16/fast
 
 #=============================================================================
+# Target rules for targets named test_or16
+
+# Build rule for target.
+test_or16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_or16
+.PHONY : test_or16
+
+# fast build rule for target.
+test_or16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/build
+.PHONY : test_or16/fast
+
+#=============================================================================
+# Target rules for targets named test_mux16
+
+# Build rule for target.
+test_mux16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mux16
+.PHONY : test_mux16
+
+# fast build rule for target.
+test_mux16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/build
+.PHONY : test_mux16/fast
+
+#=============================================================================
 # Target rules for targets named run_tests
 
 # Build rule for target.
@@ -253,6 +279,7 @@ components/gates/and.o: components/gates/and.c.o
 components/gates/and.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.o
 .PHONY : components/gates/and.c.o
 
 components/gates/and.i: components/gates/and.c.i
@@ -262,6 +289,7 @@ components/gates/and.i: components/gates/and.c.i
 components/gates/and.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.i
 .PHONY : components/gates/and.c.i
 
 components/gates/and.s: components/gates/and.c.s
@@ -271,6 +299,7 @@ components/gates/and.s: components/gates/and.c.s
 components/gates/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.s
 .PHONY : components/gates/and.c.s
 
 components/gates/and16.o: components/gates/and16.c.o
@@ -364,6 +393,7 @@ components/gates/or.o: components/gates/or.c.o
 components/gates/or.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.o
 .PHONY : components/gates/or.c.o
 
 components/gates/or.i: components/gates/or.c.i
@@ -373,6 +403,7 @@ components/gates/or.i: components/gates/or.c.i
 components/gates/or.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.i
 .PHONY : components/gates/or.c.i
 
 components/gates/or.s: components/gates/or.c.s
@@ -382,7 +413,35 @@ components/gates/or.s: components/gates/or.c.s
 components/gates/or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.s
 .PHONY : components/gates/or.c.s
+
+components/gates/or16.o: components/gates/or16.c.o
+.PHONY : components/gates/or16.o
+
+# target to build an object file
+components/gates/or16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or16.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or16.c.o
+.PHONY : components/gates/or16.c.o
+
+components/gates/or16.i: components/gates/or16.c.i
+.PHONY : components/gates/or16.i
+
+# target to preprocess a source file
+components/gates/or16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or16.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or16.c.i
+.PHONY : components/gates/or16.c.i
+
+components/gates/or16.s: components/gates/or16.c.s
+.PHONY : components/gates/or16.s
+
+# target to generate assembly for a file
+components/gates/or16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or16.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or16.c.s
+.PHONY : components/gates/or16.c.s
 
 components/gates/xor.o: components/gates/xor.c.o
 .PHONY : components/gates/xor.o
@@ -445,6 +504,7 @@ components/plexers/mux.o: components/plexers/mux.c.o
 components/plexers/mux.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux.c.o
 .PHONY : components/plexers/mux.c.o
 
 components/plexers/mux.i: components/plexers/mux.c.i
@@ -454,6 +514,7 @@ components/plexers/mux.i: components/plexers/mux.c.i
 components/plexers/mux.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux.c.i
 .PHONY : components/plexers/mux.c.i
 
 components/plexers/mux.s: components/plexers/mux.c.s
@@ -463,7 +524,35 @@ components/plexers/mux.s: components/plexers/mux.c.s
 components/plexers/mux.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/plexers/mux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux.c.s
 .PHONY : components/plexers/mux.c.s
+
+components/plexers/mux16.o: components/plexers/mux16.c.o
+.PHONY : components/plexers/mux16.o
+
+# target to build an object file
+components/plexers/mux16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux16.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux16.c.o
+.PHONY : components/plexers/mux16.c.o
+
+components/plexers/mux16.i: components/plexers/mux16.c.i
+.PHONY : components/plexers/mux16.i
+
+# target to preprocess a source file
+components/plexers/mux16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux16.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux16.c.i
+.PHONY : components/plexers/mux16.c.i
+
+components/plexers/mux16.s: components/plexers/mux16.c.s
+.PHONY : components/plexers/mux16.s
+
+# target to generate assembly for a file
+components/plexers/mux16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux16.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/plexers/mux16.c.s
+.PHONY : components/plexers/mux16.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -585,6 +674,30 @@ test/test_mux.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/test/test_mux.c.s
 .PHONY : test/test_mux.c.s
 
+test/test_mux16.o: test/test_mux16.c.o
+.PHONY : test/test_mux16.o
+
+# target to build an object file
+test/test_mux16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/test/test_mux16.c.o
+.PHONY : test/test_mux16.c.o
+
+test/test_mux16.i: test/test_mux16.c.i
+.PHONY : test/test_mux16.i
+
+# target to preprocess a source file
+test/test_mux16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/test/test_mux16.c.i
+.PHONY : test/test_mux16.c.i
+
+test/test_mux16.s: test/test_mux16.c.s
+.PHONY : test/test_mux16.s
+
+# target to generate assembly for a file
+test/test_mux16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/test/test_mux16.c.s
+.PHONY : test/test_mux16.c.s
+
 test/test_not.o: test/test_not.c.o
 .PHONY : test/test_not.o
 
@@ -657,6 +770,30 @@ test/test_or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/test/test_or.c.s
 .PHONY : test/test_or.c.s
 
+test/test_or16.o: test/test_or16.c.o
+.PHONY : test/test_or16.o
+
+# target to build an object file
+test/test_or16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/test/test_or16.c.o
+.PHONY : test/test_or16.c.o
+
+test/test_or16.i: test/test_or16.c.i
+.PHONY : test/test_or16.i
+
+# target to preprocess a source file
+test/test_or16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/test/test_or16.c.i
+.PHONY : test/test_or16.c.i
+
+test/test_or16.s: test/test_or16.c.s
+.PHONY : test/test_or16.s
+
+# target to generate assembly for a file
+test/test_or16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/test/test_or16.c.s
+.PHONY : test/test_or16.c.s
+
 test/test_xor.o: test/test_xor.c.o
 .PHONY : test/test_xor.o
 
@@ -694,6 +831,8 @@ unity/src/unity.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/unity/src/unity.c.o
 .PHONY : unity/src/unity.c.o
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -709,6 +848,8 @@ unity/src/unity.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -724,6 +865,8 @@ unity/src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 # Help Target
@@ -740,9 +883,11 @@ help:
 	@echo "... test_and16"
 	@echo "... test_dmux"
 	@echo "... test_mux"
+	@echo "... test_mux16"
 	@echo "... test_not"
 	@echo "... test_not16"
 	@echo "... test_or"
+	@echo "... test_or16"
 	@echo "... test_xor"
 	@echo "... components/gates/and.o"
 	@echo "... components/gates/and.i"
@@ -759,6 +904,9 @@ help:
 	@echo "... components/gates/or.o"
 	@echo "... components/gates/or.i"
 	@echo "... components/gates/or.s"
+	@echo "... components/gates/or16.o"
+	@echo "... components/gates/or16.i"
+	@echo "... components/gates/or16.s"
 	@echo "... components/gates/xor.o"
 	@echo "... components/gates/xor.i"
 	@echo "... components/gates/xor.s"
@@ -768,6 +916,9 @@ help:
 	@echo "... components/plexers/mux.o"
 	@echo "... components/plexers/mux.i"
 	@echo "... components/plexers/mux.s"
+	@echo "... components/plexers/mux16.o"
+	@echo "... components/plexers/mux16.i"
+	@echo "... components/plexers/mux16.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -783,6 +934,9 @@ help:
 	@echo "... test/test_mux.o"
 	@echo "... test/test_mux.i"
 	@echo "... test/test_mux.s"
+	@echo "... test/test_mux16.o"
+	@echo "... test/test_mux16.i"
+	@echo "... test/test_mux16.s"
 	@echo "... test/test_not.o"
 	@echo "... test/test_not.i"
 	@echo "... test/test_not.s"
@@ -792,6 +946,9 @@ help:
 	@echo "... test/test_or.o"
 	@echo "... test/test_or.i"
 	@echo "... test/test_or.s"
+	@echo "... test/test_or16.o"
+	@echo "... test/test_or16.i"
+	@echo "... test/test_or16.s"
 	@echo "... test/test_xor.o"
 	@echo "... test/test_xor.i"
 	@echo "... test/test_xor.s"

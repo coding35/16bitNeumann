@@ -77,6 +77,8 @@ CMakeFiles/run_tests: test_dmux
 	./test_mux
 	./test_not16
 	./test_and16
+	./test_or16
+	./test_mux16
 
 run_tests: CMakeFiles/run_tests
 run_tests: CMakeFiles/run_tests.dir/build.make

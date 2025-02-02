@@ -1,6 +1,7 @@
 // test_and16.c
 
 #include "../unity/src/unity.h"
+#include "stdlib.h"
 #include "../include/gates/and16.h"
 
 void setUp(void) {
@@ -49,79 +50,155 @@ CHIP And16 {
 }
 */
 
-void test_and16_should_return_0000000000000000_for_0000000000000000_and_0000000000000000(void) {
-    bit a[16] = { 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0 };
-    bit b[16] = { 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0 };
-    bit out[16];
-    and16(a, b, out);
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(0, out[i]);
-    }
+void test_and16_should_return_0000000000000000_for_0000000000000000_0000000000000000(void) {
+    bit a[16] = {0}, b[16] = {0};
+    bit* out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(0, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[15]);
+    free(out);
 }
 
-void test_and16_should_return_0000000000000000_for_0000000000000000_and_1111111111111111(void) {
-    bit a[16] = { 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0 };
-    bit b[16] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-    bit out[16];
-    and16(a, b, out);
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(0, out[i]);
-    }
+void test_and16_should_return_0000000000000000_for_0000000000000000_1111111111111111(void) {
+    bit a[16] = {0}, b[16] = { 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 };
+    bit* out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(0, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[15]);
+    free(out);
 }
 
-void test_and16_should_return_1111111111111111_for_1111111111111111_and_1111111111111111(void) {
-    bit a[16] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-    bit b[16] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-    bit out[16];
-    and16(a, b, out);
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(1, out[i]);
-    }
+void test_and16_should_return_1111111111111111_for_1111111111111111_1111111111111111(void) {
+    bit a[16] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+    bit b[16] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+    bit *out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(1, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[15]);
+    free(out);
 }
 
-void test_and16_should_return_0000000000000000_for_1010101010101010_and_0101010101010101(void) {
-    bit a[16] = { 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0 };
-    bit b[16] = { 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1 };
-    bit out[16];
-    and16(a, b, out);
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(0, out[i]);
-    }
+void test_and16_should_return_0000000000000000_for_1010101010101010_0101010101010101(void) {
+    bit a[16] = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0};
+    bit b[16] = {0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1};
+    bit* out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(0, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[15]);
+    free(out);
 }
 
-void test_and16_should_return_0000110011000000_for_0011110011000011_and_0000111111110000(void) {
-    bit a[16] = { 0,0,1,1,1,1,0,0,1,1,0,0,0,0,0,0 };
-    bit b[16] = { 0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0 };
-    bit out[16];
-    and16(a, b, out);
-    bit expected[16] = { 0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0};
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(expected[i], out[i]);
-    }
+void test_and16_should_return_0000110011000000_for_0011110011000011_0000111111110000(void) {
+    bit a[16] = {0,0,1,1,1,1,0,0,1,1,0,0,0,0,1,1};
+    bit b[16] = {0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0};
+    bit* out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(0, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[15]);
+    free(out);
 }
 
-void test_and16_should_return_0001000000110100_for_0001001000110100_and_1001100001110110(void) {
-    bit a[16] = { 0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,0 };
-    bit b[16] = { 1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0 };
-    bit out[16] = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-    and16(a, b, out);
-    bit expected[16] = { 0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0};
-    for (int i = 0; i < 16; i++) {
-        TEST_ASSERT_EQUAL_UINT8(expected[i], out[i]);
-    }
+void test_and16_should_return_0001000000110100_for_0001001000110100_1001100001110110(void) {
+    bit a[16] = {0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,0};
+    bit b[16] = {1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0};
+    bit* out = and16(a, b);
+    TEST_ASSERT_EQUAL_UINT8(0, out[0]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[1]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[2]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[3]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[4]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[5]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[6]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[7]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[8]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[9]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[10]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[11]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[12]);
+    TEST_ASSERT_EQUAL_UINT8(1, out[13]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[14]);
+    TEST_ASSERT_EQUAL_UINT8(0, out[15]);
+    free(out);
 }
-
 
 int main(void) {
     UNITY_BEGIN();
-    RUN_TEST(test_and16_should_return_0000000000000000_for_0000000000000000_and_0000000000000000);
-    RUN_TEST(test_and16_should_return_0000000000000000_for_0000000000000000_and_1111111111111111);
-    RUN_TEST(test_and16_should_return_1111111111111111_for_1111111111111111_and_1111111111111111);
-    RUN_TEST(test_and16_should_return_0000000000000000_for_1010101010101010_and_0101010101010101);
-    RUN_TEST(test_and16_should_return_0000110011000000_for_0011110011000011_and_0000111111110000);
-    RUN_TEST(test_and16_should_return_0001000000110100_for_0001001000110100_and_1001100001110110);
+    RUN_TEST(test_and16_should_return_0000000000000000_for_0000000000000000_0000000000000000);
+    RUN_TEST(test_and16_should_return_0000000000000000_for_0000000000000000_1111111111111111);
+    RUN_TEST(test_and16_should_return_1111111111111111_for_1111111111111111_1111111111111111);
+    RUN_TEST(test_and16_should_return_0000000000000000_for_1010101010101010_0101010101010101);
+    RUN_TEST(test_and16_should_return_0000110011000000_for_0011110011000011_0000111111110000);
+    RUN_TEST(test_and16_should_return_0001000000110100_for_0001001000110100_1001100001110110);
     return UNITY_END();
 }
+
+
+
 
 
 

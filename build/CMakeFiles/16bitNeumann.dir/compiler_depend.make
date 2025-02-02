@@ -36,24 +36,55 @@ CMakeFiles/16bitNeumann.dir/components/gates/and.c.o: /home/adam/Repos/16bitNeum
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/and16.c.o: /home/adam/Repos/16bitNeumann/components/gates/and16.c \
+  /home/adam/Repos/16bitNeumann/include/gates/and.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c \
@@ -79,24 +110,54 @@ CMakeFiles/16bitNeumann.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeum
 
 CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: /home/adam/Repos/16bitNeumann/components/gates/not16.c \
   /home/adam/Repos/16bitNeumann/include/gates/not.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/or.c.o: /home/adam/Repos/16bitNeumann/components/gates/or.c \
@@ -118,6 +179,58 @@ CMakeFiles/16bitNeumann.dir/components/gates/or.c.o: /home/adam/Repos/16bitNeuma
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
+
+CMakeFiles/16bitNeumann.dir/components/gates/or16.c.o: /home/adam/Repos/16bitNeumann/components/gates/or16.c \
+  /home/adam/Repos/16bitNeumann/include/gates/or.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o: /home/adam/Repos/16bitNeumann/components/gates/xor.c \
@@ -183,6 +296,58 @@ CMakeFiles/16bitNeumann.dir/components/plexers/mux.c.o: /home/adam/Repos/16bitNe
   /usr/include/sys/cdefs.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
+CMakeFiles/16bitNeumann.dir/components/plexers/mux16.c.o: /home/adam/Repos/16bitNeumann/components/plexers/mux16.c \
+  /home/adam/Repos/16bitNeumann/include/plexers/mux.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
+
 CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
   /home/adam/Repos/16bitNeumann/include/gates/and.h \
   /home/adam/Repos/16bitNeumann/include/gates/and16.h \
@@ -225,98 +390,158 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 
-/home/adam/Repos/16bitNeumann/include/gates/and16.h:
+/home/adam/Repos/16bitNeumann/include/plexers/dmux.h:
 
-/home/adam/Repos/16bitNeumann/include/gates/and.h:
+/home/adam/Repos/16bitNeumann/include/gates/xor.h:
 
-/home/adam/Repos/16bitNeumann/include/gates/not16.h:
+/home/adam/Repos/16bitNeumann/main.c:
+
+/home/adam/Repos/16bitNeumann/include/plexers/mux.h:
+
+/home/adam/Repos/16bitNeumann/components/plexers/mux16.c:
 
 /home/adam/Repos/16bitNeumann/components/plexers/mux.c:
 
 /home/adam/Repos/16bitNeumann/include/gates/or.h:
 
-/home/adam/Repos/16bitNeumann/components/plexers/dmux.c:
-
-/home/adam/Repos/16bitNeumann/components/gates/or.c:
-
-/home/adam/Repos/16bitNeumann/components/gates/not.c:
-
-/home/adam/Repos/16bitNeumann/components/gates/and16.c:
-
-/home/adam/Repos/16bitNeumann/include/plexers/dmux.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h:
-
 /home/adam/Repos/16bitNeumann/components/gates/not16.c:
 
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h:
+/usr/include/sys/types.h:
 
-/usr/include/bits/stdint-intn.h:
+/usr/include/sys/select.h:
 
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/bits/stdint-least.h:
-
-/usr/include/bits/types.h:
-
-/home/adam/Repos/16bitNeumann/components/gates/xor.c:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/home/adam/Repos/16bitNeumann/main.c:
-
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/features-time64.h:
-
-/home/adam/Repos/16bitNeumann/components/gates/and.c:
-
-/usr/include/stdint.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/features.h:
-
-/usr/include/gnu/stubs.h:
-
-/home/adam/Repos/16bitNeumann/include/gates/xor.h:
-
-/home/adam/Repos/16bitNeumann/include/gates/not.h:
-
-/usr/include/stdio.h:
+/usr/include/stdlib.h:
 
 /usr/include/sys/cdefs.h:
 
+/home/adam/Repos/16bitNeumann/components/gates/xor.c:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/stdint.h:
+
+/home/adam/Repos/16bitNeumann/components/gates/and.c:
+
+/usr/include/features-time64.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h:
+
+/usr/include/bits/time64.h:
+
+/home/adam/Repos/16bitNeumann/components/plexers/dmux.c:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/floatn.h:
+
+/home/adam/Repos/16bitNeumann/components/gates/or.c:
+
+/usr/include/bits/libc-header-start.h:
+
+/home/adam/Repos/16bitNeumann/components/gates/or16.c:
+
+/usr/include/bits/wchar.h:
+
+/home/adam/Repos/16bitNeumann/include/gates/not.h:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/alloca.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h:
+
 /usr/include/bits/timesize.h:
 
+/usr/include/bits/endian.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/home/adam/Repos/16bitNeumann/components/gates/and16.c:
+
+/home/adam/Repos/16bitNeumann/include/gates/and.h:
+
+/usr/include/bits/endianness.h:
+
 /usr/include/stdc-predef.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/home/adam/Repos/16bitNeumann/include/gates/not16.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/home/adam/Repos/16bitNeumann/components/gates/not.c:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/home/adam/Repos/16bitNeumann/include/gates/and16.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/waitstatus.h:
