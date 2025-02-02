@@ -10,4 +10,7 @@ CMakeFiles/test_mux16.dir/components/plexers/mux.c.o: \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h
+ /usr/include/bits/stdint-least.h \
+ /home/adam/Repos/16bitNeumann/components/plexers/../../include/gates/and.h \
+ /home/adam/Repos/16bitNeumann/components/plexers/../../include/gates/not.h \
+ /home/adam/Repos/16bitNeumann/components/plexers/../../include/gates/or.h

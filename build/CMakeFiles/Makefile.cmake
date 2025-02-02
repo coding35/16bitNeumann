@@ -51,5 +51,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_and16.dir/DependInfo.cmake"
   "CMakeFiles/test_or16.dir/DependInfo.cmake"
   "CMakeFiles/test_mux16.dir/DependInfo.cmake"
+  "CMakeFiles/test_or8way.dir/DependInfo.cmake"
+  "CMakeFiles/test_mux4way16.dir/DependInfo.cmake"
   "CMakeFiles/run_tests.dir/DependInfo.cmake"
   )

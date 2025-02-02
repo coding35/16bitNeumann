@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_mux16.dir/components/gates/and.c.o"
+  "CMakeFiles/test_mux16.dir/components/gates/and.c.o.d"
+  "CMakeFiles/test_mux16.dir/components/gates/not.c.o"
+  "CMakeFiles/test_mux16.dir/components/gates/not.c.o.d"
+  "CMakeFiles/test_mux16.dir/components/gates/or.c.o"
+  "CMakeFiles/test_mux16.dir/components/gates/or.c.o.d"
   "CMakeFiles/test_mux16.dir/components/plexers/mux.c.o"
   "CMakeFiles/test_mux16.dir/components/plexers/mux.c.o.d"
   "CMakeFiles/test_mux16.dir/components/plexers/mux16.c.o"

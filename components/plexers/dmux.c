@@ -1,5 +1,7 @@
 // dmux.h
 #include <stdint.h>
+#include "../../include/gates/and.h"
+#include "../../include/gates/not.h"
 
 typedef uint8_t bit;
 
@@ -27,8 +29,8 @@ typedef uint8_t bit;
 */
 
 void dmux(bit in, bit sel, bit *a, bit *b) {
-    *a = in & !sel;
-    *b = in & sel;
+    *a = and(in, not(sel));
+    *b = and(in, sel);
 }
 
 

@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/adam/Repos/16bitNeumann/components/gates/and.c" "CMakeFiles/test_mux16.dir/components/gates/and.c.o" "gcc" "CMakeFiles/test_mux16.dir/components/gates/and.c.o.d"
+  "/home/adam/Repos/16bitNeumann/components/gates/not.c" "CMakeFiles/test_mux16.dir/components/gates/not.c.o" "gcc" "CMakeFiles/test_mux16.dir/components/gates/not.c.o.d"
+  "/home/adam/Repos/16bitNeumann/components/gates/or.c" "CMakeFiles/test_mux16.dir/components/gates/or.c.o" "gcc" "CMakeFiles/test_mux16.dir/components/gates/or.c.o.d"
   "/home/adam/Repos/16bitNeumann/components/plexers/mux.c" "CMakeFiles/test_mux16.dir/components/plexers/mux.c.o" "gcc" "CMakeFiles/test_mux16.dir/components/plexers/mux.c.o.d"
   "/home/adam/Repos/16bitNeumann/components/plexers/mux16.c" "CMakeFiles/test_mux16.dir/components/plexers/mux16.c.o" "gcc" "CMakeFiles/test_mux16.dir/components/plexers/mux16.c.o.d"
   "/home/adam/Repos/16bitNeumann/test/test_mux16.c" "CMakeFiles/test_mux16.dir/test/test_mux16.c.o" "gcc" "CMakeFiles/test_mux16.dir/test/test_mux16.c.o.d"

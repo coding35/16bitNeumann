@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_dmux.dir/components/gates/and.c.o"
+  "CMakeFiles/test_dmux.dir/components/gates/and.c.o.d"
+  "CMakeFiles/test_dmux.dir/components/gates/not.c.o"
+  "CMakeFiles/test_dmux.dir/components/gates/not.c.o.d"
   "CMakeFiles/test_dmux.dir/components/plexers/dmux.c.o"
   "CMakeFiles/test_dmux.dir/components/plexers/dmux.c.o.d"
   "CMakeFiles/test_dmux.dir/test/test_dmux.c.o"

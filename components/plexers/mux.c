@@ -1,5 +1,9 @@
 // mux.h
 #include <stdint.h>
+#include "../../include/gates/and.h"
+#include "../../include/gates/not.h"
+#include "../../include/gates/or.h"
+
 
 typedef uint8_t bit;
 
@@ -36,6 +40,6 @@ typedef uint8_t bit;
 
 
 bit mux(bit a, bit b, bit sel){
-    return (a & !sel) | (b & sel);
+    return or(and(a, not(sel)), and(b, sel));
 }
 
