@@ -48,7 +48,7 @@ typedef uint8_t bit;
     ** Make sure to free the memory allocated for the output array after use **
     */
 
-bit* mux16(bit a[16], bit b[16], bit sel) {
+bit* mux16(bit a[], bit b[], bit sel) {
     bit* out = (bit*)malloc(16 * sizeof(bit));
     if (out == NULL) {
         // Handle memory allocation failure

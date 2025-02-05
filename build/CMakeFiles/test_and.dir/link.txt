@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/test_and.dir/test/test_and.c.o CMakeFiles/test_and.dir/components/gates/and.c.o CMakeFiles/test_and.dir/unity/src/unity.c.o -o test_and
+/usr/bin/cc CMakeFiles/test_and.dir/test/test_and.c.o CMakeFiles/test_and.dir/components/gates/not.c.o CMakeFiles/test_and.dir/components/gates/nand.c.o CMakeFiles/test_and.dir/components/gates/and.c.o CMakeFiles/test_and.dir/unity/src/unity.c.o -o test_and

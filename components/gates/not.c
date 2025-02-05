@@ -1,5 +1,6 @@
 // not.c
 #include <stdint.h>
+#include "../../include/gates/nand.h"
 
 typedef uint8_t bit;
 
@@ -25,5 +26,6 @@ typedef uint8_t bit;
  */
 
 bit not(bit a) {
-    return !a;
+    bit out = nand(a, a);
+    return out;
 }

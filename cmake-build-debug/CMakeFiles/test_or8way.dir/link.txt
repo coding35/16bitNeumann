@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_or8way.dir/test/test_or8way.c.o CMakeFiles/test_or8way.dir/components/gates/or.c.o CMakeFiles/test_or8way.dir/components/gates/or8way.c.o CMakeFiles/test_or8way.dir/unity/src/unity.c.o -o test_or8way

@@ -367,16 +367,66 @@ components/gates/and16.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and16.c.s
 .PHONY : components/gates/and16.c.s
 
+components/gates/nand.o: components/gates/nand.c.o
+.PHONY : components/gates/nand.o
+
+# target to build an object file
+components/gates/nand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.o
+.PHONY : components/gates/nand.c.o
+
+components/gates/nand.i: components/gates/nand.c.i
+.PHONY : components/gates/nand.i
+
+# target to preprocess a source file
+components/gates/nand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.i
+.PHONY : components/gates/nand.c.i
+
+components/gates/nand.s: components/gates/nand.c.s
+.PHONY : components/gates/nand.s
+
+# target to generate assembly for a file
+components/gates/nand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.s
+.PHONY : components/gates/nand.c.s
+
 components/gates/not.o: components/gates/not.c.o
 .PHONY : components/gates/not.o
 
 # target to build an object file
 components/gates/not.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.o
 .PHONY : components/gates/not.c.o
@@ -387,10 +437,12 @@ components/gates/not.i: components/gates/not.c.i
 # target to preprocess a source file
 components/gates/not.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.i
 .PHONY : components/gates/not.c.i
@@ -401,10 +453,12 @@ components/gates/not.s: components/gates/not.c.s
 # target to generate assembly for a file
 components/gates/not.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.s
 .PHONY : components/gates/not.c.s
@@ -510,6 +564,7 @@ components/gates/or8way.o: components/gates/or8way.c.o
 
 # target to build an object file
 components/gates/or8way.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or8way.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or8way.c.o
 .PHONY : components/gates/or8way.c.o
 
@@ -518,6 +573,7 @@ components/gates/or8way.i: components/gates/or8way.c.i
 
 # target to preprocess a source file
 components/gates/or8way.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or8way.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or8way.c.i
 .PHONY : components/gates/or8way.c.i
 
@@ -526,6 +582,7 @@ components/gates/or8way.s: components/gates/or8way.c.s
 
 # target to generate assembly for a file
 components/gates/or8way.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or8way.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or8way.c.s
 .PHONY : components/gates/or8way.c.s
 
@@ -651,6 +708,7 @@ components/plexers/mux4way16.o: components/plexers/mux4way16.c.o
 
 # target to build an object file
 components/plexers/mux4way16.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux4way16.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/plexers/mux4way16.c.o
 .PHONY : components/plexers/mux4way16.c.o
 
@@ -659,6 +717,7 @@ components/plexers/mux4way16.i: components/plexers/mux4way16.c.i
 
 # target to preprocess a source file
 components/plexers/mux4way16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux4way16.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/plexers/mux4way16.c.i
 .PHONY : components/plexers/mux4way16.c.i
 
@@ -667,6 +726,7 @@ components/plexers/mux4way16.s: components/plexers/mux4way16.c.s
 
 # target to generate assembly for a file
 components/plexers/mux4way16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/mux4way16.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/plexers/mux4way16.c.s
 .PHONY : components/plexers/mux4way16.c.s
 
@@ -1067,6 +1127,9 @@ help:
 	@echo "... components/gates/and16.o"
 	@echo "... components/gates/and16.i"
 	@echo "... components/gates/and16.s"
+	@echo "... components/gates/nand.o"
+	@echo "... components/gates/nand.i"
+	@echo "... components/gates/nand.s"
 	@echo "... components/gates/not.o"
 	@echo "... components/gates/not.i"
 	@echo "... components/gates/not.s"

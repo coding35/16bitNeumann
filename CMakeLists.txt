@@ -7,6 +7,7 @@ set(CMAKE_C_STANDARD 11)
 add_executable(
         16bitNeumann
         main.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/not.c
         components/gates/or.c
@@ -17,12 +18,17 @@ add_executable(
         components/plexers/mux.c
         components/plexers/mux16.c
         components/plexers/dmux.c
+        components/gates/or8way.c
+        components/plexers/mux4way16.c
+
 )
 
 # Add the test executable for and
 add_executable(
         test_and
         test/test_and.c
+        components/gates/not.c
+        components/gates/nand.c
         components/gates/and.c
         unity/src/unity.c
 )
@@ -31,6 +37,7 @@ add_executable(
 add_executable(
         test_not
         test/test_not.c
+        components/gates/nand.c
         components/gates/not.c
         unity/src/unity.c
 )
@@ -55,6 +62,7 @@ add_executable(
 add_executable(
         test_mux
         test/test_mux.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/or.c
         components/gates/not.c
@@ -66,6 +74,7 @@ add_executable(
 add_executable(
         test_dmux
         test/test_dmux.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/not.c
         components/plexers/dmux.c
@@ -76,6 +85,7 @@ add_executable(
 add_executable(
         test_not16
         test/test_not16.c
+        components/gates/nand.c
         components/gates/not.c
         components/gates/not16.c
         unity/src/unity.c
@@ -85,6 +95,8 @@ add_executable(
 add_executable(
         test_and16
         test/test_and16.c
+        components/gates/not.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/and16.c
         unity/src/unity.c
@@ -103,6 +115,7 @@ add_executable(
 add_executable(
         test_mux16
         test/test_mux16.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/or.c
         components/gates/not.c
@@ -124,6 +137,7 @@ add_executable(
 add_executable(
         test_mux4way16
         test/test_mux4way16.c
+        components/gates/nand.c
         components/gates/and.c
         components/gates/or.c
         components/gates/not.c

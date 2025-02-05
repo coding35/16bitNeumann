@@ -1,6 +1,6 @@
 // and.c
 #include <stdint.h>
-#include <stdio.h>
+#include "../../include/gates/nand.h"
 
 typedef uint8_t bit;
 
@@ -28,6 +28,7 @@ typedef uint8_t bit;
 */
 
 bit and(bit a, bit b){
-    return a & b;
+    bit c = nand(a, b);
+    return nand(c, c);
 }
 

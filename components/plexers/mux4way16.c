@@ -42,16 +42,16 @@ bit* mux4way16(bit a[], bit b[], bit c[], bit d[], bit sel[]) {
         // Handle memory allocation failure
         return NULL;
     }
-    bit* mux1 = mux16(a, b, sel[0]);
-    bit* mux2 = mux16(c, d, sel[0]);
-    bit* temp = mux16(mux1, mux2, sel[1]);
+    bit* q = mux16(a, b, sel[0]);
+    bit* r = mux16(c, d, sel[0]);
+    bit* temp = mux16(q, r, sel[1]);
 
     for (int i = 0; i < 16; i++) {
         out[i] = temp[i];
     }
 
-    free(mux1);
-    free(mux2);
+    free(q);
+    free(r);
     free(temp);
     return out;
 }

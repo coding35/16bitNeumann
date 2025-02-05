@@ -9,16 +9,15 @@ typedef uint8_t bit;
 
 /*
     Mux Truth Table
-    | A | B | Sel | Q |
-    |---|---|-----|---|
-    | 0 | 0 | 0   | 0 |
-    | 0 | 1 | 0   | 0 |
-    | 1 | 0 | 0   | 1 |
-    | 1 | 1 | 0   | 1 |
-    | 0 | 0 | 1   | 0 |
-    | 0 | 1 | 1   | 1 |
-    | 1 | 0 | 1   | 0 |
-    | 1 | 1 | 1   | 1 |
+    | a | b |sel|out|
+    | 0 | 0 | 0 | 0 |
+    | 0 | 0 | 1 | 0 |
+    | 0 | 1 | 0 | 0 |
+    | 0 | 1 | 1 | 1 |
+    | 1 | 0 | 0 | 1 |
+    | 1 | 0 | 1 | 0 |
+    | 1 | 1 | 0 | 1 |
+    | 1 | 1 | 1 | 1 |
 
     HDL
 
@@ -40,6 +39,9 @@ typedef uint8_t bit;
 
 
 bit mux(bit a, bit b, bit sel){
-    return or(and(a, not(sel)), and(b, sel));
+    bit notSel = not(sel);
+    bit c = and(a, notSel);
+    bit d = and(b, sel);
+    return or(c, d);
 }
 

@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/test_not.dir/test/test_not.c.o CMakeFiles/test_not.dir/components/gates/not.c.o CMakeFiles/test_not.dir/unity/src/unity.c.o -o test_not
+/usr/bin/cc CMakeFiles/test_not.dir/test/test_not.c.o CMakeFiles/test_not.dir/components/gates/nand.c.o CMakeFiles/test_not.dir/components/gates/not.c.o CMakeFiles/test_not.dir/unity/src/unity.c.o -o test_not
