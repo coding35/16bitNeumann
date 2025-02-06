@@ -69,6 +69,7 @@ CMakeFiles/test_mux.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/test_mux.dir/components/gates/or.c.o: /home/adam/Repos/16bitNeumann/components/gates/or.c \
+  /home/adam/Repos/16bitNeumann/include/gates/nand.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \

@@ -26,6 +26,7 @@ CMakeFiles/16bitNeumann.dir/main.c.o: \
  /home/adam/Repos/16bitNeumann/include/plexers/dmux.h \
  /home/adam/Repos/16bitNeumann/include/gates/not16.h \
  /home/adam/Repos/16bitNeumann/include/gates/and16.h \
+ /home/adam/Repos/16bitNeumann/include/plexers/mux4way16.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
  /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \

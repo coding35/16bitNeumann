@@ -99,6 +99,7 @@ CMakeFiles/16bitNeumann.dir/components/gates/nand.c.o: /home/adam/Repos/16bitNeu
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c \
+  /home/adam/Repos/16bitNeumann/include/gates/nand.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -172,6 +173,7 @@ CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o: /home/adam/Repos/16bitNe
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/or.c.o: /home/adam/Repos/16bitNeumann/components/gates/or.c \
+  /home/adam/Repos/16bitNeumann/include/gates/nand.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -267,6 +269,9 @@ CMakeFiles/16bitNeumann.dir/components/gates/or8way.c.o: /home/adam/Repos/16bitN
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
 CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o: /home/adam/Repos/16bitNeumann/components/gates/xor.c \
+  /home/adam/Repos/16bitNeumann/include/gates/and.h \
+  /home/adam/Repos/16bitNeumann/include/gates/not.h \
+  /home/adam/Repos/16bitNeumann/include/gates/or.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -446,6 +451,7 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
   /home/adam/Repos/16bitNeumann/include/gates/or.h \
   /home/adam/Repos/16bitNeumann/include/gates/xor.h \
   /home/adam/Repos/16bitNeumann/include/plexers/dmux.h \
+  /home/adam/Repos/16bitNeumann/include/plexers/mux4way16.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -512,6 +518,8 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
 /usr/include/stdio.h:
 
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/floatn.h:
 
@@ -641,8 +649,6 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
 
 /home/adam/Repos/16bitNeumann/components/gates/not16.c:
 
-/usr/include/bits/types/__fpos_t.h:
-
 /usr/include/bits/stdint-least.h:
 
 /usr/include/bits/wchar.h:
@@ -672,3 +678,5 @@ CMakeFiles/16bitNeumann.dir/main.c.o: /home/adam/Repos/16bitNeumann/main.c \
 /usr/include/bits/types/__FILE.h:
 
 /home/adam/Repos/16bitNeumann/include/gates/and16.h:
+
+/home/adam/Repos/16bitNeumann/include/plexers/mux4way16.h:

@@ -83,10 +83,66 @@ CMakeFiles/test_xor.dir/test/test_xor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_xor.dir/test/test_xor.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/test/test_xor.c -o CMakeFiles/test_xor.dir/test/test_xor.c.s
 
+CMakeFiles/test_xor.dir/components/gates/nand.c.o: CMakeFiles/test_xor.dir/flags.make
+CMakeFiles/test_xor.dir/components/gates/nand.c.o: /home/adam/Repos/16bitNeumann/components/gates/nand.c
+CMakeFiles/test_xor.dir/components/gates/nand.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_xor.dir/components/gates/nand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/components/gates/nand.c.o -MF CMakeFiles/test_xor.dir/components/gates/nand.c.o.d -o CMakeFiles/test_xor.dir/components/gates/nand.c.o -c /home/adam/Repos/16bitNeumann/components/gates/nand.c
+
+CMakeFiles/test_xor.dir/components/gates/nand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_xor.dir/components/gates/nand.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/nand.c > CMakeFiles/test_xor.dir/components/gates/nand.c.i
+
+CMakeFiles/test_xor.dir/components/gates/nand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_xor.dir/components/gates/nand.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/nand.c -o CMakeFiles/test_xor.dir/components/gates/nand.c.s
+
+CMakeFiles/test_xor.dir/components/gates/not.c.o: CMakeFiles/test_xor.dir/flags.make
+CMakeFiles/test_xor.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c
+CMakeFiles/test_xor.dir/components/gates/not.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_xor.dir/components/gates/not.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/components/gates/not.c.o -MF CMakeFiles/test_xor.dir/components/gates/not.c.o.d -o CMakeFiles/test_xor.dir/components/gates/not.c.o -c /home/adam/Repos/16bitNeumann/components/gates/not.c
+
+CMakeFiles/test_xor.dir/components/gates/not.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_xor.dir/components/gates/not.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/not.c > CMakeFiles/test_xor.dir/components/gates/not.c.i
+
+CMakeFiles/test_xor.dir/components/gates/not.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_xor.dir/components/gates/not.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/not.c -o CMakeFiles/test_xor.dir/components/gates/not.c.s
+
+CMakeFiles/test_xor.dir/components/gates/and.c.o: CMakeFiles/test_xor.dir/flags.make
+CMakeFiles/test_xor.dir/components/gates/and.c.o: /home/adam/Repos/16bitNeumann/components/gates/and.c
+CMakeFiles/test_xor.dir/components/gates/and.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_xor.dir/components/gates/and.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/components/gates/and.c.o -MF CMakeFiles/test_xor.dir/components/gates/and.c.o.d -o CMakeFiles/test_xor.dir/components/gates/and.c.o -c /home/adam/Repos/16bitNeumann/components/gates/and.c
+
+CMakeFiles/test_xor.dir/components/gates/and.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_xor.dir/components/gates/and.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/and.c > CMakeFiles/test_xor.dir/components/gates/and.c.i
+
+CMakeFiles/test_xor.dir/components/gates/and.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_xor.dir/components/gates/and.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/and.c -o CMakeFiles/test_xor.dir/components/gates/and.c.s
+
+CMakeFiles/test_xor.dir/components/gates/or.c.o: CMakeFiles/test_xor.dir/flags.make
+CMakeFiles/test_xor.dir/components/gates/or.c.o: /home/adam/Repos/16bitNeumann/components/gates/or.c
+CMakeFiles/test_xor.dir/components/gates/or.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test_xor.dir/components/gates/or.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/components/gates/or.c.o -MF CMakeFiles/test_xor.dir/components/gates/or.c.o.d -o CMakeFiles/test_xor.dir/components/gates/or.c.o -c /home/adam/Repos/16bitNeumann/components/gates/or.c
+
+CMakeFiles/test_xor.dir/components/gates/or.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_xor.dir/components/gates/or.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/or.c > CMakeFiles/test_xor.dir/components/gates/or.c.i
+
+CMakeFiles/test_xor.dir/components/gates/or.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_xor.dir/components/gates/or.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/or.c -o CMakeFiles/test_xor.dir/components/gates/or.c.s
+
 CMakeFiles/test_xor.dir/components/gates/xor.c.o: CMakeFiles/test_xor.dir/flags.make
 CMakeFiles/test_xor.dir/components/gates/xor.c.o: /home/adam/Repos/16bitNeumann/components/gates/xor.c
 CMakeFiles/test_xor.dir/components/gates/xor.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_xor.dir/components/gates/xor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test_xor.dir/components/gates/xor.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/components/gates/xor.c.o -MF CMakeFiles/test_xor.dir/components/gates/xor.c.o.d -o CMakeFiles/test_xor.dir/components/gates/xor.c.o -c /home/adam/Repos/16bitNeumann/components/gates/xor.c
 
 CMakeFiles/test_xor.dir/components/gates/xor.c.i: cmake_force
@@ -100,7 +156,7 @@ CMakeFiles/test_xor.dir/components/gates/xor.c.s: cmake_force
 CMakeFiles/test_xor.dir/unity/src/unity.c.o: CMakeFiles/test_xor.dir/flags.make
 CMakeFiles/test_xor.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity/src/unity.c
 CMakeFiles/test_xor.dir/unity/src/unity.c.o: CMakeFiles/test_xor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_xor.dir/unity/src/unity.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test_xor.dir/unity/src/unity.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_xor.dir/unity/src/unity.c.o -MF CMakeFiles/test_xor.dir/unity/src/unity.c.o.d -o CMakeFiles/test_xor.dir/unity/src/unity.c.o -c /home/adam/Repos/16bitNeumann/unity/src/unity.c
 
 CMakeFiles/test_xor.dir/unity/src/unity.c.i: cmake_force
@@ -114,6 +170,10 @@ CMakeFiles/test_xor.dir/unity/src/unity.c.s: cmake_force
 # Object files for target test_xor
 test_xor_OBJECTS = \
 "CMakeFiles/test_xor.dir/test/test_xor.c.o" \
+"CMakeFiles/test_xor.dir/components/gates/nand.c.o" \
+"CMakeFiles/test_xor.dir/components/gates/not.c.o" \
+"CMakeFiles/test_xor.dir/components/gates/and.c.o" \
+"CMakeFiles/test_xor.dir/components/gates/or.c.o" \
 "CMakeFiles/test_xor.dir/components/gates/xor.c.o" \
 "CMakeFiles/test_xor.dir/unity/src/unity.c.o"
 
@@ -121,11 +181,15 @@ test_xor_OBJECTS = \
 test_xor_EXTERNAL_OBJECTS =
 
 test_xor: CMakeFiles/test_xor.dir/test/test_xor.c.o
+test_xor: CMakeFiles/test_xor.dir/components/gates/nand.c.o
+test_xor: CMakeFiles/test_xor.dir/components/gates/not.c.o
+test_xor: CMakeFiles/test_xor.dir/components/gates/and.c.o
+test_xor: CMakeFiles/test_xor.dir/components/gates/or.c.o
 test_xor: CMakeFiles/test_xor.dir/components/gates/xor.c.o
 test_xor: CMakeFiles/test_xor.dir/unity/src/unity.c.o
 test_xor: CMakeFiles/test_xor.dir/build.make
 test_xor: CMakeFiles/test_xor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable test_xor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable test_xor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_xor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

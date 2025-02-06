@@ -47,7 +47,15 @@ bit* mux4way16(bit a[], bit b[], bit c[], bit d[], bit sel[]) {
     bit* temp = mux16(q, r, sel[1]);
 
     for (int i = 0; i < 16; i++) {
-        out[i] = temp[i];
+        if (sel[0] == 0 && sel[1] == 0) {
+            out[i] = a[i];
+        } else if (sel[0] == 0 && sel[1] == 1) {
+            out[i] = b[i];
+        } else if (sel[0] == 1 && sel[1] == 0) {
+            out[i] = c[i];
+        } else if (sel[0] == 1 && sel[1] == 1) {
+            out[i] = d[i];
+        }
     }
 
     free(q);

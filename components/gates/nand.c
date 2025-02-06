@@ -30,7 +30,7 @@ typedef uint8_t bit;
     }
 */
 
-bit nand(bit a, bit b){  //   if (a and b) out = 0, else out = 1 in c code
+bit nand(bit a, bit b){
     if(a == 1 && b == 1){
         return 0;
     }

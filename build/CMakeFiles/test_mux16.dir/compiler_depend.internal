@@ -73,6 +73,7 @@ CMakeFiles/test_mux16.dir/components/gates/not.c.o
 
 CMakeFiles/test_mux16.dir/components/gates/or.c.o
  /home/adam/Repos/16bitNeumann/components/gates/or.c
+ /home/adam/Repos/16bitNeumann/include/gates/nand.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/long-double.h
  /usr/include/bits/stdint-intn.h

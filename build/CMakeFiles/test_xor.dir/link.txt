@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/test_xor.dir/test/test_xor.c.o CMakeFiles/test_xor.dir/components/gates/xor.c.o CMakeFiles/test_xor.dir/unity/src/unity.c.o -o test_xor
+/usr/bin/cc CMakeFiles/test_xor.dir/test/test_xor.c.o CMakeFiles/test_xor.dir/components/gates/nand.c.o CMakeFiles/test_xor.dir/components/gates/not.c.o CMakeFiles/test_xor.dir/components/gates/and.c.o CMakeFiles/test_xor.dir/components/gates/or.c.o CMakeFiles/test_xor.dir/components/gates/xor.c.o CMakeFiles/test_xor.dir/unity/src/unity.c.o -o test_xor

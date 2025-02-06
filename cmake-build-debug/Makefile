@@ -305,6 +305,7 @@ components/gates/and.o: components/gates/and.c.o
 components/gates/and.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.o
@@ -319,6 +320,7 @@ components/gates/and.i: components/gates/and.c.i
 components/gates/and.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.i
@@ -333,6 +335,7 @@ components/gates/and.s: components/gates/and.c.s
 components/gates/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/and.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/and.c.s
@@ -375,10 +378,15 @@ components/gates/nand.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.o
 .PHONY : components/gates/nand.c.o
 
@@ -390,10 +398,15 @@ components/gates/nand.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.i
 .PHONY : components/gates/nand.c.i
 
@@ -405,10 +418,15 @@ components/gates/nand.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and16.dir/build.make CMakeFiles/test_and16.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.s
 .PHONY : components/gates/nand.c.s
 
@@ -420,6 +438,7 @@ components/gates/not.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.o
@@ -436,6 +455,7 @@ components/gates/not.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.i
@@ -452,6 +472,7 @@ components/gates/not.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_and.dir/build.make CMakeFiles/test_and.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not.dir/build.make CMakeFiles/test_not.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_not16.dir/build.make CMakeFiles/test_not16.dir/components/gates/not.c.s
@@ -494,6 +515,7 @@ components/gates/or.o: components/gates/or.c.o
 components/gates/or.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/or.c.o
@@ -508,6 +530,7 @@ components/gates/or.i: components/gates/or.c.i
 components/gates/or.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/or.c.i
@@ -522,6 +545,7 @@ components/gates/or.s: components/gates/or.c.s
 components/gates/or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or.dir/build.make CMakeFiles/test_or.dir/components/gates/or.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux.dir/build.make CMakeFiles/test_mux.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or16.dir/build.make CMakeFiles/test_or16.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/or.c.s

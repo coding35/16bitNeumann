@@ -1,5 +1,8 @@
 // xor.c
 #include <stdint.h>
+#include "../../include/gates/not.h"
+#include "../../include/gates/and.h"
+#include "../../include/gates/or.h"
 
 typedef uint8_t bit;
 
@@ -30,5 +33,9 @@ typedef uint8_t bit;
 */
 
 bit xor(bit a, bit b){
-    return a ^ b; // bitwise or operator
+    bit nota = not(a);
+    bit notb = not(b);
+    bit outa = and(a, notb);
+    bit outb = and(nota, b);
+    return or(outa, outb);
 }

@@ -1,5 +1,6 @@
 // or.c
 #include <stdint.h>
+#include "../../include/gates/nand.h"
 
 typedef uint8_t bit;
 
@@ -28,5 +29,7 @@ typedef uint8_t bit;
 */
 
 bit or(bit a, bit b){
-    return a | b;
+    bit c = nand(a, a);
+    bit d = nand(b, b);
+    return nand(c, d);
 }

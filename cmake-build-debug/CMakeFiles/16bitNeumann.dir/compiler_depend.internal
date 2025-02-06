@@ -103,6 +103,7 @@ CMakeFiles/16bitNeumann.dir/components/gates/nand.c.o
 
 CMakeFiles/16bitNeumann.dir/components/gates/not.c.o
  /home/adam/Repos/16bitNeumann/components/gates/not.c
+ /home/adam/Repos/16bitNeumann/include/gates/nand.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/long-double.h
  /usr/include/bits/stdint-intn.h
@@ -178,6 +179,7 @@ CMakeFiles/16bitNeumann.dir/components/gates/not16.c.o
 
 CMakeFiles/16bitNeumann.dir/components/gates/or.c.o
  /home/adam/Repos/16bitNeumann/components/gates/or.c
+ /home/adam/Repos/16bitNeumann/include/gates/nand.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/long-double.h
  /usr/include/bits/stdint-intn.h
@@ -276,6 +278,9 @@ CMakeFiles/16bitNeumann.dir/components/gates/or8way.c.o
 
 CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o
  /home/adam/Repos/16bitNeumann/components/gates/xor.c
+ /home/adam/Repos/16bitNeumann/include/gates/and.h
+ /home/adam/Repos/16bitNeumann/include/gates/not.h
+ /home/adam/Repos/16bitNeumann/include/gates/or.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/long-double.h
  /usr/include/bits/stdint-intn.h
@@ -460,6 +465,7 @@ CMakeFiles/16bitNeumann.dir/main.c.o
  /home/adam/Repos/16bitNeumann/include/gates/or.h
  /home/adam/Repos/16bitNeumann/include/gates/xor.h
  /home/adam/Repos/16bitNeumann/include/plexers/dmux.h
+ /home/adam/Repos/16bitNeumann/include/plexers/mux4way16.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h

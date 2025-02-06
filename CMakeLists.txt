@@ -46,6 +46,7 @@ add_executable(
 add_executable(
         test_or
         test/test_or.c
+        components/gates/nand.c
         components/gates/or.c
         unity/src/unity.c
 )
@@ -54,6 +55,10 @@ add_executable(
 add_executable(
         test_xor
         test/test_xor.c
+        components/gates/nand.c
+        components/gates/not.c
+        components/gates/and.c
+        components/gates/or.c
         components/gates/xor.c
         unity/src/unity.c
 )
@@ -106,6 +111,7 @@ add_executable(
 add_executable(
         test_or16
         test/test_or16.c
+        components/gates/nand.c
         components/gates/or.c
         components/gates/or16.c
         unity/src/unity.c
@@ -128,6 +134,7 @@ add_executable(
 add_executable(
         test_or8way
         test/test_or8way.c
+        components/gates/nand.c
         components/gates/or.c
         components/gates/or8way.c
         unity/src/unity.c

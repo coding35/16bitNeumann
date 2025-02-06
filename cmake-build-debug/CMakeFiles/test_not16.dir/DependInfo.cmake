@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/adam/Repos/16bitNeumann/components/gates/nand.c" "CMakeFiles/test_not16.dir/components/gates/nand.c.o" "gcc" "CMakeFiles/test_not16.dir/components/gates/nand.c.o.d"
   "/home/adam/Repos/16bitNeumann/components/gates/not.c" "CMakeFiles/test_not16.dir/components/gates/not.c.o" "gcc" "CMakeFiles/test_not16.dir/components/gates/not.c.o.d"
   "/home/adam/Repos/16bitNeumann/components/gates/not16.c" "CMakeFiles/test_not16.dir/components/gates/not16.c.o" "gcc" "CMakeFiles/test_not16.dir/components/gates/not16.c.o.d"
   "/home/adam/Repos/16bitNeumann/test/test_not16.c" "CMakeFiles/test_not16.dir/test/test_not16.c.o" "gcc" "CMakeFiles/test_not16.dir/test/test_not16.c.o.d"
