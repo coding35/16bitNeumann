@@ -29,7 +29,8 @@ typedef uint8_t bit;
 */
 
 void dmux(bit in, bit sel, bit *a, bit *b) {
-    *a = and(in, not(sel));
+    bit nsel = not(sel);
+    *a = and(in, nsel);
     *b = and(in, sel);
 }
 

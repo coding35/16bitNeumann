@@ -154,6 +154,18 @@ add_executable(
         unity/src/unity.c
 )
 
+# Add the test executable for dmux4way
+add_executable(
+        test_dmux4way
+        test/test_dmux4way.c
+        components/gates/nand.c
+        components/gates/and.c
+        components/gates/not.c
+        components/plexers/dmux.c
+        components/plexers/dmux4way.c
+        unity/src/unity.c
+)
+
 # Include Unity
 include_directories(${CMAKE_SOURCE_DIR}/unity/src)
 
@@ -171,5 +183,6 @@ add_custom_target(run_tests
         COMMAND test_mux16
         COMMAND test_or8way
         COMMAND test_mux4way16
+        COMMAND test_dmux4way
         DEPENDS test_and test_not test_dmux
 )
