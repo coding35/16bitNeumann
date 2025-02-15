@@ -1,6 +1,7 @@
 // dmux4way.c
 
 #include <stdint.h>
+#include <stdio.h>
 #include "../../include/plexers/dmux.h"
 
 typedef uint8_t bit;
@@ -34,8 +35,9 @@ typedef uint8_t bit;
 */
 
 
-void dmux4way(bit in, bit sel[], bit* a, bit* b, bit* c, bit* d) {
-    bit ao, bo; // intermediate variables, output of the first dmux operation will be stored here
+void dmux4way(bit in, bit sel[], bit *a, bit *b, bit *c, bit *d) {
+    *a = *b = *c = *d = 0;
+    bit ao = 0, bo = 0; // intermediate variables, output of the first dmux operation will be stored here
     dmux(in, sel[1], &ao, &bo);
     dmux(ao, sel[0], a, b);
     dmux(bo, sel[0], c, d);

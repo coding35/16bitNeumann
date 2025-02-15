@@ -32,6 +32,7 @@ void dmux(bit in, bit sel, bit *a, bit *b) {
     bit nsel = not(sel);
     *a = and(in, nsel);
     *b = and(in, sel);
+
 }
 
 

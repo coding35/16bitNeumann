@@ -31,8 +31,5 @@ typedef uint8_t bit;
 */
 
 bit nand(bit a, bit b){
-    if(a == 1 && b == 1){
-        return 0;
-    }
-    return 1;
+    return !(a & b);
 }

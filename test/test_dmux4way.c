@@ -80,10 +80,10 @@ void test_dmux4way_should_return_1000_for_1000_00(void) {
     TEST_ASSERT_EQUAL_UINT8(0, d);
 }
 
-void test_dmux4way_should_return_0100_for_1000_01(void) { // fails
+void test_dmux4way_should_return_0100_for_1000_01(void) {
     bit in = 1;
-    bit sel[] = {0, 1};
-    bit a, b, c, d;
+    bit sel[2] = {1, 0}; // represents 01 in binary (big-endian)
+    bit a = 0, b = 0, c = 0, d = 0;
     dmux4way(in, sel, &a, &b, &c, &d);
     TEST_ASSERT_EQUAL_UINT8(0, a);
     TEST_ASSERT_EQUAL_UINT8(1, b);
@@ -91,10 +91,10 @@ void test_dmux4way_should_return_0100_for_1000_01(void) { // fails
     TEST_ASSERT_EQUAL_UINT8(0, d);
 }
 
-void test_dmux4way_should_return_0010_for_1000_10(void) { // fails
+void test_dmux4way_should_return_0010_for_1000_10(void) {
     bit in = 1;
-    bit sel[] = {1, 0};
-    bit a, b, c, d;
+    bit sel[2] = {0, 1}; // represents 10 in binary (big-endian)
+    bit a = 0, b = 0, c = 0, d = 0;
     dmux4way(in, sel, &a, &b, &c, &d);
     TEST_ASSERT_EQUAL_UINT8(0, a);
     TEST_ASSERT_EQUAL_UINT8(0, b);
@@ -120,8 +120,8 @@ int main(void) {
     RUN_TEST(test_dmux4way_should_return_0000_for_0000_10);
     RUN_TEST(test_dmux4way_should_return_0000_for_0000_11);
     RUN_TEST(test_dmux4way_should_return_1000_for_1000_00);
-    RUN_TEST(test_dmux4way_should_return_0100_for_1000_01); // fails
-    RUN_TEST(test_dmux4way_should_return_0010_for_1000_10); // fails
+    RUN_TEST(test_dmux4way_should_return_0100_for_1000_01);
+    RUN_TEST(test_dmux4way_should_return_0010_for_1000_10);
     RUN_TEST(test_dmux4way_should_return_0001_for_1000_11);
     return UNITY_END();
 }
