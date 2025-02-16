@@ -1,0 +1,19 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_and.dir/components/gates/and.c.o"
+  "CMakeFiles/test_and.dir/components/gates/and.c.o.d"
+  "CMakeFiles/test_and.dir/components/gates/nand.c.o"
+  "CMakeFiles/test_and.dir/components/gates/nand.c.o.d"
+  "CMakeFiles/test_and.dir/components/gates/not.c.o"
+  "CMakeFiles/test_and.dir/components/gates/not.c.o.d"
+  "CMakeFiles/test_and.dir/test/test_and.c.o"
+  "CMakeFiles/test_and.dir/test/test_and.c.o.d"
+  "CMakeFiles/test_and.dir/unity/src/unity.c.o"
+  "CMakeFiles/test_and.dir/unity/src/unity.c.o.d"
+  "test_and"
+  "test_and.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/test_and.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
