@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_or16.dir/components/gates/and.c.o"
+  "CMakeFiles/test_or16.dir/components/gates/and.c.o.d"
   "CMakeFiles/test_or16.dir/components/gates/nand.c.o"
   "CMakeFiles/test_or16.dir/components/gates/nand.c.o.d"
+  "CMakeFiles/test_or16.dir/components/gates/not.c.o"
+  "CMakeFiles/test_or16.dir/components/gates/not.c.o.d"
   "CMakeFiles/test_or16.dir/components/gates/or.c.o"
   "CMakeFiles/test_or16.dir/components/gates/or.c.o.d"
   "CMakeFiles/test_or16.dir/components/gates/or16.c.o"

@@ -38,6 +38,7 @@ add_executable(
         test_not
         test/test_not.c
         components/gates/nand.c
+        components/gates/and.c
         components/gates/not.c
         unity/src/unity.c
 )
@@ -47,6 +48,8 @@ add_executable(
         test_or
         test/test_or.c
         components/gates/nand.c
+        components/gates/not.c
+        components/gates/and.c
         components/gates/or.c
         unity/src/unity.c
 )
@@ -92,6 +95,7 @@ add_executable(
         test/test_not16.c
         components/gates/nand.c
         components/gates/not.c
+        components/gates/and.c
         components/gates/not16.c
         unity/src/unity.c
 )
@@ -112,6 +116,8 @@ add_executable(
         test_or16
         test/test_or16.c
         components/gates/nand.c
+        components/gates/and.c
+        components/gates/not.c
         components/gates/or.c
         components/gates/or16.c
         unity/src/unity.c
@@ -136,6 +142,8 @@ add_executable(
         test/test_or8way.c
         components/gates/nand.c
         components/gates/or.c
+        components/gates/not.c
+        components/gates/and.c
         components/gates/or8way.c
         unity/src/unity.c
 )
@@ -177,6 +185,18 @@ add_executable(
         unity/src/unity.c
 )
 
+add_executable(
+        test_halfadder
+        test/test_halfadder.c
+        components/gates/nand.c
+        components/gates/and.c
+        components/gates/not.c
+        components/gates/or.c
+        components/gates/xor.c
+        components/adders/halfadder.c
+        unity/src/unity.c
+)
+
 # Include Unity
 include_directories(${CMAKE_SOURCE_DIR}/unity/src)
 
@@ -196,5 +216,6 @@ add_custom_target(run_tests
         COMMAND test_mux4way16
         COMMAND test_dmux4way
         COMMAND test_dmux8way
+        COMMAND test_halfadder
         DEPENDS test_and test_not test_dmux
 )

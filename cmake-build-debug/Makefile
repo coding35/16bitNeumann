@@ -299,6 +299,19 @@ test_dmux4way/fast:
 .PHONY : test_dmux4way/fast
 
 #=============================================================================
+# Target rules for targets named test_dmux8way
+
+# Build rule for target.
+test_dmux8way: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_dmux8way
+.PHONY : test_dmux8way
+
+# fast build rule for target.
+test_dmux8way/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/build
+.PHONY : test_dmux8way/fast
+
+#=============================================================================
 # Target rules for targets named run_tests
 
 # Build rule for target.
@@ -325,6 +338,7 @@ components/gates/and.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.o
 .PHONY : components/gates/and.c.o
 
 components/gates/and.i: components/gates/and.c.i
@@ -341,6 +355,7 @@ components/gates/and.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.i
 .PHONY : components/gates/and.c.i
 
 components/gates/and.s: components/gates/and.c.s
@@ -357,6 +372,7 @@ components/gates/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.s
 .PHONY : components/gates/and.c.s
 
 components/gates/and16.o: components/gates/and16.c.o
@@ -405,6 +421,7 @@ components/gates/nand.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.o
 .PHONY : components/gates/nand.c.o
 
 components/gates/nand.i: components/gates/nand.c.i
@@ -426,6 +443,7 @@ components/gates/nand.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.i
 .PHONY : components/gates/nand.c.i
 
 components/gates/nand.s: components/gates/nand.c.s
@@ -447,6 +465,7 @@ components/gates/nand.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.s
 .PHONY : components/gates/nand.c.s
 
 components/gates/not.o: components/gates/not.c.o
@@ -465,6 +484,7 @@ components/gates/not.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.o
 .PHONY : components/gates/not.c.o
 
 components/gates/not.i: components/gates/not.c.i
@@ -483,6 +503,7 @@ components/gates/not.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.i
 .PHONY : components/gates/not.c.i
 
 components/gates/not.s: components/gates/not.c.s
@@ -501,6 +522,7 @@ components/gates/not.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux16.dir/build.make CMakeFiles/test_mux16.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.s
 .PHONY : components/gates/not.c.s
 
 components/gates/not16.o: components/gates/not16.c.o
@@ -664,6 +686,7 @@ components/plexers/dmux.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/plexers/dmux.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux.c.o
 .PHONY : components/plexers/dmux.c.o
 
 components/plexers/dmux.i: components/plexers/dmux.c.i
@@ -674,6 +697,7 @@ components/plexers/dmux.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/plexers/dmux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux.c.i
 .PHONY : components/plexers/dmux.c.i
 
 components/plexers/dmux.s: components/plexers/dmux.c.s
@@ -684,6 +708,7 @@ components/plexers/dmux.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/plexers/dmux.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux.dir/build.make CMakeFiles/test_dmux.dir/components/plexers/dmux.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/plexers/dmux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux.c.s
 .PHONY : components/plexers/dmux.c.s
 
 components/plexers/dmux4way.o: components/plexers/dmux4way.c.o
@@ -709,6 +734,30 @@ components/plexers/dmux4way.s: components/plexers/dmux4way.c.s
 components/plexers/dmux4way.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/plexers/dmux4way.c.s
 .PHONY : components/plexers/dmux4way.c.s
+
+components/plexers/dmux8way.o: components/plexers/dmux8way.c.o
+.PHONY : components/plexers/dmux8way.o
+
+# target to build an object file
+components/plexers/dmux8way.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux8way.c.o
+.PHONY : components/plexers/dmux8way.c.o
+
+components/plexers/dmux8way.i: components/plexers/dmux8way.c.i
+.PHONY : components/plexers/dmux8way.i
+
+# target to preprocess a source file
+components/plexers/dmux8way.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux8way.c.i
+.PHONY : components/plexers/dmux8way.c.i
+
+components/plexers/dmux8way.s: components/plexers/dmux8way.c.s
+.PHONY : components/plexers/dmux8way.s
+
+# target to generate assembly for a file
+components/plexers/dmux8way.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/plexers/dmux8way.c.s
+.PHONY : components/plexers/dmux8way.c.s
 
 components/plexers/mux.o: components/plexers/mux.c.o
 .PHONY : components/plexers/mux.o
@@ -919,6 +968,30 @@ test/test_dmux4way.s: test/test_dmux4way.c.s
 test/test_dmux4way.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/test/test_dmux4way.c.s
 .PHONY : test/test_dmux4way.c.s
+
+test/test_dmux8way.o: test/test_dmux8way.c.o
+.PHONY : test/test_dmux8way.o
+
+# target to build an object file
+test/test_dmux8way.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/test/test_dmux8way.c.o
+.PHONY : test/test_dmux8way.c.o
+
+test/test_dmux8way.i: test/test_dmux8way.c.i
+.PHONY : test/test_dmux8way.i
+
+# target to preprocess a source file
+test/test_dmux8way.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/test/test_dmux8way.c.i
+.PHONY : test/test_dmux8way.c.i
+
+test/test_dmux8way.s: test/test_dmux8way.c.s
+.PHONY : test/test_dmux8way.s
+
+# target to generate assembly for a file
+test/test_dmux8way.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/test/test_dmux8way.c.s
+.PHONY : test/test_dmux8way.c.s
 
 test/test_mux.o: test/test_mux.c.o
 .PHONY : test/test_mux.o
@@ -1154,6 +1227,7 @@ unity/src/unity.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.o
 .PHONY : unity/src/unity.c.o
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -1174,6 +1248,7 @@ unity/src/unity.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -1194,6 +1269,7 @@ unity/src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 # Help Target
@@ -1210,6 +1286,7 @@ help:
 	@echo "... test_and16"
 	@echo "... test_dmux"
 	@echo "... test_dmux4way"
+	@echo "... test_dmux8way"
 	@echo "... test_mux"
 	@echo "... test_mux16"
 	@echo "... test_mux4way16"
@@ -1252,6 +1329,9 @@ help:
 	@echo "... components/plexers/dmux4way.o"
 	@echo "... components/plexers/dmux4way.i"
 	@echo "... components/plexers/dmux4way.s"
+	@echo "... components/plexers/dmux8way.o"
+	@echo "... components/plexers/dmux8way.i"
+	@echo "... components/plexers/dmux8way.s"
 	@echo "... components/plexers/mux.o"
 	@echo "... components/plexers/mux.i"
 	@echo "... components/plexers/mux.s"
@@ -1276,6 +1356,9 @@ help:
 	@echo "... test/test_dmux4way.o"
 	@echo "... test/test_dmux4way.i"
 	@echo "... test/test_dmux4way.s"
+	@echo "... test/test_dmux8way.o"
+	@echo "... test/test_dmux8way.i"
+	@echo "... test/test_dmux8way.s"
 	@echo "... test/test_mux.o"
 	@echo "... test/test_mux.i"
 	@echo "... test/test_mux.s"

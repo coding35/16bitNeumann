@@ -31,5 +31,5 @@ typedef uint8_t bit;
 */
 
 bit nand(bit a, bit b){
-    return !(a & b);
+    return !(a && b); // NAND logic
 }

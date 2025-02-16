@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "16bitNeumann",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "16bitNeumann::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16bitNeumann-Debug-9f5c85794007bf8d8a67.json",
+					"name" : "16bitNeumann",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-Debug-78be5d11cc9e8c893a5d.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_and-Debug-167a6eb5fb33c15e23e8.json",
+					"name" : "test_and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_and16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_and16-Debug-7aab4610be1e58ebc921.json",
+					"name" : "test_and16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dmux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dmux-Debug-43e02a40663fe42b0db4.json",
+					"name" : "test_dmux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dmux4way::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dmux4way-Debug-eadcd17b8bfb3d6af3c4.json",
+					"name" : "test_dmux4way",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dmux8way::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dmux8way-Debug-f86be97894e568d8d34e.json",
+					"name" : "test_dmux8way",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mux-Debug-7dd06873a207ffa23136.json",
+					"name" : "test_mux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mux16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mux16-Debug-b4ee80674314559849d7.json",
+					"name" : "test_mux16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mux4way16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mux4way16-Debug-25f3d6f2cceef4cfdb7b.json",
+					"name" : "test_mux4way16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_not::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_not-Debug-88846472adb382be6465.json",
+					"name" : "test_not",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_not16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_not16-Debug-a4429ee2759830b2d3d6.json",
+					"name" : "test_not16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_or::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_or-Debug-6a5d3050bb289bb5a414.json",
+					"name" : "test_or",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_or16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_or16-Debug-ccce4debc6886ffd614e.json",
+					"name" : "test_or16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_or8way::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_or8way-Debug-8b5139c42ca89fca6d5f.json",
+					"name" : "test_or8way",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_xor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_xor-Debug-5a1aa78fc3e36b4d2ed5.json",
+					"name" : "test_xor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/adam/Repos/16bitNeumann/cmake-build-debug",
+		"source" : "/home/adam/Repos/16bitNeumann"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
