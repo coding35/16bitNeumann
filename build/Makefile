@@ -325,6 +325,19 @@ test_halfadder/fast:
 .PHONY : test_halfadder/fast
 
 #=============================================================================
+# Target rules for targets named test_fulladder
+
+# Build rule for target.
+test_fulladder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_fulladder
+.PHONY : test_fulladder
+
+# fast build rule for target.
+test_fulladder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/build
+.PHONY : test_fulladder/fast
+
+#=============================================================================
 # Target rules for targets named run_tests
 
 # Build rule for target.
@@ -337,12 +350,37 @@ run_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
+components/adders/fulladder.o: components/adders/fulladder.c.o
+.PHONY : components/adders/fulladder.o
+
+# target to build an object file
+components/adders/fulladder.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/fulladder.c.o
+.PHONY : components/adders/fulladder.c.o
+
+components/adders/fulladder.i: components/adders/fulladder.c.i
+.PHONY : components/adders/fulladder.i
+
+# target to preprocess a source file
+components/adders/fulladder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/fulladder.c.i
+.PHONY : components/adders/fulladder.c.i
+
+components/adders/fulladder.s: components/adders/fulladder.c.s
+.PHONY : components/adders/fulladder.s
+
+# target to generate assembly for a file
+components/adders/fulladder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/fulladder.c.s
+.PHONY : components/adders/fulladder.c.s
+
 components/adders/halfadder.o: components/adders/halfadder.c.o
 .PHONY : components/adders/halfadder.o
 
 # target to build an object file
 components/adders/halfadder.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/adders/halfadder.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/halfadder.c.o
 .PHONY : components/adders/halfadder.c.o
 
 components/adders/halfadder.i: components/adders/halfadder.c.i
@@ -351,6 +389,7 @@ components/adders/halfadder.i: components/adders/halfadder.c.i
 # target to preprocess a source file
 components/adders/halfadder.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/adders/halfadder.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/halfadder.c.i
 .PHONY : components/adders/halfadder.c.i
 
 components/adders/halfadder.s: components/adders/halfadder.c.s
@@ -359,6 +398,7 @@ components/adders/halfadder.s: components/adders/halfadder.c.s
 # target to generate assembly for a file
 components/adders/halfadder.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/adders/halfadder.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/adders/halfadder.c.s
 .PHONY : components/adders/halfadder.c.s
 
 components/gates/and.o: components/gates/and.c.o
@@ -382,6 +422,7 @@ components/gates/and.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/and.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/and.c.o
 .PHONY : components/gates/and.c.o
 
 components/gates/and.i: components/gates/and.c.i
@@ -405,6 +446,7 @@ components/gates/and.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/and.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/and.c.i
 .PHONY : components/gates/and.c.i
 
 components/gates/and.s: components/gates/and.c.s
@@ -428,6 +470,7 @@ components/gates/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/and.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/and.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/and.c.s
 .PHONY : components/gates/and.c.s
 
 components/gates/and16.o: components/gates/and16.c.o
@@ -478,6 +521,7 @@ components/gates/nand.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/nand.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/nand.c.o
 .PHONY : components/gates/nand.c.o
 
 components/gates/nand.i: components/gates/nand.c.i
@@ -501,6 +545,7 @@ components/gates/nand.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/nand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/nand.c.i
 .PHONY : components/gates/nand.c.i
 
 components/gates/nand.s: components/gates/nand.c.s
@@ -524,6 +569,7 @@ components/gates/nand.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/nand.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/nand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/nand.c.s
 .PHONY : components/gates/nand.c.s
 
 components/gates/not.o: components/gates/not.c.o
@@ -547,6 +593,7 @@ components/gates/not.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/not.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/not.c.o
 .PHONY : components/gates/not.c.o
 
 components/gates/not.i: components/gates/not.c.i
@@ -570,6 +617,7 @@ components/gates/not.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/not.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/not.c.i
 .PHONY : components/gates/not.c.i
 
 components/gates/not.s: components/gates/not.c.s
@@ -593,6 +641,7 @@ components/gates/not.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/components/gates/not.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/not.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/not.c.s
 .PHONY : components/gates/not.c.s
 
 components/gates/not16.o: components/gates/not16.c.o
@@ -636,6 +685,7 @@ components/gates/or.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/or.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/or.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/or.c.o
 .PHONY : components/gates/or.c.o
 
 components/gates/or.i: components/gates/or.c.i
@@ -652,6 +702,7 @@ components/gates/or.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/or.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/or.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/or.c.i
 .PHONY : components/gates/or.c.i
 
 components/gates/or.s: components/gates/or.c.s
@@ -668,6 +719,7 @@ components/gates/or.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_or8way.dir/build.make CMakeFiles/test_or8way.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mux4way16.dir/build.make CMakeFiles/test_mux4way16.dir/components/gates/or.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/or.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/or.c.s
 .PHONY : components/gates/or.c.s
 
 components/gates/or16.o: components/gates/or16.c.o
@@ -732,6 +784,7 @@ components/gates/xor.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/xor.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/xor.c.o
 .PHONY : components/gates/xor.c.o
 
 components/gates/xor.i: components/gates/xor.c.i
@@ -742,6 +795,7 @@ components/gates/xor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/xor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/xor.c.i
 .PHONY : components/gates/xor.c.i
 
 components/gates/xor.s: components/gates/xor.c.s
@@ -752,6 +806,7 @@ components/gates/xor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/16bitNeumann.dir/build.make CMakeFiles/16bitNeumann.dir/components/gates/xor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_xor.dir/build.make CMakeFiles/test_xor.dir/components/gates/xor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/components/gates/xor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/components/gates/xor.c.s
 .PHONY : components/gates/xor.c.s
 
 components/plexers/dmux.o: components/plexers/dmux.c.o
@@ -1069,6 +1124,30 @@ test/test_dmux8way.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/test/test_dmux8way.c.s
 .PHONY : test/test_dmux8way.c.s
 
+test/test_fulladder.o: test/test_fulladder.c.o
+.PHONY : test/test_fulladder.o
+
+# target to build an object file
+test/test_fulladder.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/test/test_fulladder.c.o
+.PHONY : test/test_fulladder.c.o
+
+test/test_fulladder.i: test/test_fulladder.c.i
+.PHONY : test/test_fulladder.i
+
+# target to preprocess a source file
+test/test_fulladder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/test/test_fulladder.c.i
+.PHONY : test/test_fulladder.c.i
+
+test/test_fulladder.s: test/test_fulladder.c.s
+.PHONY : test/test_fulladder.s
+
+# target to generate assembly for a file
+test/test_fulladder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/test/test_fulladder.c.s
+.PHONY : test/test_fulladder.c.s
+
 test/test_halfadder.o: test/test_halfadder.c.o
 .PHONY : test/test_halfadder.o
 
@@ -1329,6 +1408,7 @@ unity/src/unity.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/unity/src/unity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/unity/src/unity.c.o
 .PHONY : unity/src/unity.c.o
 
 unity/src/unity.i: unity/src/unity.c.i
@@ -1351,6 +1431,7 @@ unity/src/unity.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/unity/src/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/unity/src/unity.c.i
 .PHONY : unity/src/unity.c.i
 
 unity/src/unity.s: unity/src/unity.c.s
@@ -1373,6 +1454,7 @@ unity/src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux4way.dir/build.make CMakeFiles/test_dmux4way.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dmux8way.dir/build.make CMakeFiles/test_dmux8way.dir/unity/src/unity.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_halfadder.dir/build.make CMakeFiles/test_halfadder.dir/unity/src/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fulladder.dir/build.make CMakeFiles/test_fulladder.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
 # Help Target
@@ -1390,6 +1472,7 @@ help:
 	@echo "... test_dmux"
 	@echo "... test_dmux4way"
 	@echo "... test_dmux8way"
+	@echo "... test_fulladder"
 	@echo "... test_halfadder"
 	@echo "... test_mux"
 	@echo "... test_mux16"
@@ -1400,6 +1483,9 @@ help:
 	@echo "... test_or16"
 	@echo "... test_or8way"
 	@echo "... test_xor"
+	@echo "... components/adders/fulladder.o"
+	@echo "... components/adders/fulladder.i"
+	@echo "... components/adders/fulladder.s"
 	@echo "... components/adders/halfadder.o"
 	@echo "... components/adders/halfadder.i"
 	@echo "... components/adders/halfadder.s"
@@ -1466,6 +1552,9 @@ help:
 	@echo "... test/test_dmux8way.o"
 	@echo "... test/test_dmux8way.i"
 	@echo "... test/test_dmux8way.s"
+	@echo "... test/test_fulladder.o"
+	@echo "... test/test_fulladder.i"
+	@echo "... test/test_fulladder.s"
 	@echo "... test/test_halfadder.o"
 	@echo "... test/test_halfadder.i"
 	@echo "... test/test_halfadder.s"

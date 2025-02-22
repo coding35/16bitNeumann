@@ -14,6 +14,7 @@
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_dmux4way.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_dmux8way.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/test_halfadder.dir
+/home/adam/Repos/16bitNeumann/build/CMakeFiles/test_fulladder.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/run_tests.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/edit_cache.dir
 /home/adam/Repos/16bitNeumann/build/CMakeFiles/rebuild_cache.dir

@@ -56,5 +56,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_dmux4way.dir/DependInfo.cmake"
   "CMakeFiles/test_dmux8way.dir/DependInfo.cmake"
   "CMakeFiles/test_halfadder.dir/DependInfo.cmake"
+  "CMakeFiles/test_fulladder.dir/DependInfo.cmake"
   "CMakeFiles/run_tests.dir/DependInfo.cmake"
   )

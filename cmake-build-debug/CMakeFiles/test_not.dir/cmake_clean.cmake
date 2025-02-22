@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_not.dir/components/gates/and.c.o"
+  "CMakeFiles/test_not.dir/components/gates/and.c.o.d"
   "CMakeFiles/test_not.dir/components/gates/nand.c.o"
   "CMakeFiles/test_not.dir/components/gates/nand.c.o.d"
   "CMakeFiles/test_not.dir/components/gates/not.c.o"

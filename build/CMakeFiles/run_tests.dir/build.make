@@ -84,6 +84,7 @@ CMakeFiles/run_tests: test_dmux
 	./test_dmux4way
 	./test_dmux8way
 	./test_halfadder
+	./test_fulladder
 
 run_tests: CMakeFiles/run_tests
 run_tests: CMakeFiles/run_tests.dir/build.make

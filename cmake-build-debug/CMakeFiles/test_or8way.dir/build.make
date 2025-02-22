@@ -111,10 +111,38 @@ CMakeFiles/test_or8way.dir/components/gates/or.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_or8way.dir/components/gates/or.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/or.c -o CMakeFiles/test_or8way.dir/components/gates/or.c.s
 
+CMakeFiles/test_or8way.dir/components/gates/not.c.o: CMakeFiles/test_or8way.dir/flags.make
+CMakeFiles/test_or8way.dir/components/gates/not.c.o: /home/adam/Repos/16bitNeumann/components/gates/not.c
+CMakeFiles/test_or8way.dir/components/gates/not.c.o: CMakeFiles/test_or8way.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_or8way.dir/components/gates/not.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_or8way.dir/components/gates/not.c.o -MF CMakeFiles/test_or8way.dir/components/gates/not.c.o.d -o CMakeFiles/test_or8way.dir/components/gates/not.c.o -c /home/adam/Repos/16bitNeumann/components/gates/not.c
+
+CMakeFiles/test_or8way.dir/components/gates/not.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_or8way.dir/components/gates/not.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/not.c > CMakeFiles/test_or8way.dir/components/gates/not.c.i
+
+CMakeFiles/test_or8way.dir/components/gates/not.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_or8way.dir/components/gates/not.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/not.c -o CMakeFiles/test_or8way.dir/components/gates/not.c.s
+
+CMakeFiles/test_or8way.dir/components/gates/and.c.o: CMakeFiles/test_or8way.dir/flags.make
+CMakeFiles/test_or8way.dir/components/gates/and.c.o: /home/adam/Repos/16bitNeumann/components/gates/and.c
+CMakeFiles/test_or8way.dir/components/gates/and.c.o: CMakeFiles/test_or8way.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test_or8way.dir/components/gates/and.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_or8way.dir/components/gates/and.c.o -MF CMakeFiles/test_or8way.dir/components/gates/and.c.o.d -o CMakeFiles/test_or8way.dir/components/gates/and.c.o -c /home/adam/Repos/16bitNeumann/components/gates/and.c
+
+CMakeFiles/test_or8way.dir/components/gates/and.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_or8way.dir/components/gates/and.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adam/Repos/16bitNeumann/components/gates/and.c > CMakeFiles/test_or8way.dir/components/gates/and.c.i
+
+CMakeFiles/test_or8way.dir/components/gates/and.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_or8way.dir/components/gates/and.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adam/Repos/16bitNeumann/components/gates/and.c -o CMakeFiles/test_or8way.dir/components/gates/and.c.s
+
 CMakeFiles/test_or8way.dir/components/gates/or8way.c.o: CMakeFiles/test_or8way.dir/flags.make
 CMakeFiles/test_or8way.dir/components/gates/or8way.c.o: /home/adam/Repos/16bitNeumann/components/gates/or8way.c
 CMakeFiles/test_or8way.dir/components/gates/or8way.c.o: CMakeFiles/test_or8way.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_or8way.dir/components/gates/or8way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test_or8way.dir/components/gates/or8way.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_or8way.dir/components/gates/or8way.c.o -MF CMakeFiles/test_or8way.dir/components/gates/or8way.c.o.d -o CMakeFiles/test_or8way.dir/components/gates/or8way.c.o -c /home/adam/Repos/16bitNeumann/components/gates/or8way.c
 
 CMakeFiles/test_or8way.dir/components/gates/or8way.c.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/test_or8way.dir/components/gates/or8way.c.s: cmake_force
 CMakeFiles/test_or8way.dir/unity/src/unity.c.o: CMakeFiles/test_or8way.dir/flags.make
 CMakeFiles/test_or8way.dir/unity/src/unity.c.o: /home/adam/Repos/16bitNeumann/unity/src/unity.c
 CMakeFiles/test_or8way.dir/unity/src/unity.c.o: CMakeFiles/test_or8way.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test_or8way.dir/unity/src/unity.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test_or8way.dir/unity/src/unity.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_or8way.dir/unity/src/unity.c.o -MF CMakeFiles/test_or8way.dir/unity/src/unity.c.o.d -o CMakeFiles/test_or8way.dir/unity/src/unity.c.o -c /home/adam/Repos/16bitNeumann/unity/src/unity.c
 
 CMakeFiles/test_or8way.dir/unity/src/unity.c.i: cmake_force
@@ -144,6 +172,8 @@ test_or8way_OBJECTS = \
 "CMakeFiles/test_or8way.dir/test/test_or8way.c.o" \
 "CMakeFiles/test_or8way.dir/components/gates/nand.c.o" \
 "CMakeFiles/test_or8way.dir/components/gates/or.c.o" \
+"CMakeFiles/test_or8way.dir/components/gates/not.c.o" \
+"CMakeFiles/test_or8way.dir/components/gates/and.c.o" \
 "CMakeFiles/test_or8way.dir/components/gates/or8way.c.o" \
 "CMakeFiles/test_or8way.dir/unity/src/unity.c.o"
 
@@ -153,11 +183,13 @@ test_or8way_EXTERNAL_OBJECTS =
 test_or8way: CMakeFiles/test_or8way.dir/test/test_or8way.c.o
 test_or8way: CMakeFiles/test_or8way.dir/components/gates/nand.c.o
 test_or8way: CMakeFiles/test_or8way.dir/components/gates/or.c.o
+test_or8way: CMakeFiles/test_or8way.dir/components/gates/not.c.o
+test_or8way: CMakeFiles/test_or8way.dir/components/gates/and.c.o
 test_or8way: CMakeFiles/test_or8way.dir/components/gates/or8way.c.o
 test_or8way: CMakeFiles/test_or8way.dir/unity/src/unity.c.o
 test_or8way: CMakeFiles/test_or8way.dir/build.make
 test_or8way: CMakeFiles/test_or8way.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable test_or8way"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adam/Repos/16bitNeumann/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable test_or8way"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_or8way.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

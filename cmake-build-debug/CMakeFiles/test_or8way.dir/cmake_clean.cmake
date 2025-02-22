@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_or8way.dir/components/gates/and.c.o"
+  "CMakeFiles/test_or8way.dir/components/gates/and.c.o.d"
   "CMakeFiles/test_or8way.dir/components/gates/nand.c.o"
   "CMakeFiles/test_or8way.dir/components/gates/nand.c.o.d"
+  "CMakeFiles/test_or8way.dir/components/gates/not.c.o"
+  "CMakeFiles/test_or8way.dir/components/gates/not.c.o.d"
   "CMakeFiles/test_or8way.dir/components/gates/or.c.o"
   "CMakeFiles/test_or8way.dir/components/gates/or.c.o.d"
   "CMakeFiles/test_or8way.dir/components/gates/or8way.c.o"
