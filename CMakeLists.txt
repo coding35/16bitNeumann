@@ -210,6 +210,20 @@ add_executable(
         unity/src/unity.c
 )
 
+add_executable(
+        test_add16
+        test/test_add16.c
+        components/gates/nand.c
+        components/gates/and.c
+        components/gates/or.c
+        components/gates/xor.c
+        components/gates/not.c
+        components/adders/halfadder.c
+        components/adders/fulladder.c
+        components/adders/add16.c
+        unity/src/unity.c
+)
+
 # Include Unity
 include_directories(${CMAKE_SOURCE_DIR}/unity/src)
 
@@ -231,5 +245,6 @@ add_custom_target(run_tests
         COMMAND test_dmux8way
         COMMAND test_halfadder
         COMMAND test_fulladder
+        COMMAND test_add16
         DEPENDS test_and test_not test_dmux
 )
